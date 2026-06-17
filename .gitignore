@@ -1,0 +1,9 @@
+# Never commit Gmail OAuth client or tokens
+scripts/credentials.json
+scripts/token.json
+*.env
+
+# Local noise
+.DS_Store
+__pycache__/
+*.pyc

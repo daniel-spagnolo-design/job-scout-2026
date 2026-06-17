@@ -1,0 +1,70 @@
+name: Job Scout (weekly)
+
+# Runs every Monday ~7–8am Melbourne time (cron is UTC; 21:00 Sun UTC ≈ Mon AEST/AEDT).
+# Also runnable on demand from the Actions tab (workflow_dispatch) — use this to test.
+on:
+  schedule:
+    - cron: "0 21 * * 0"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write   # lets the workflow commit jobs-log.md + state back to the repo
+
+concurrency:
+  group: job-scout
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python deps
+        run: pip install -r scripts/requirements.txt
+
+      - name: Fetch job-alert emails (Gmail)
+        env:
+          GMAIL_CLIENT_ID: ${{ secrets.GMAIL_CLIENT_ID }}
+          GMAIL_CLIENT_SECRET: ${{ secrets.GMAIL_CLIENT_SECRET }}
+          GMAIL_REFRESH_TOKEN: ${{ secrets.GMAIL_REFRESH_TOKEN }}
+        run: python scripts/fetch_alerts.py
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install Claude Code
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Run the scan
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          claude -p "Read scan-prompt.md in this repository and follow it exactly, then stop. The email dump for this run is at state/inbox-dump.md. Append results to jobs-log.md and write the digest body to state/digest-latest.md. Edit only those two files." \
+            --dangerously-skip-permissions \
+            --allowedTools "Read,Edit,Write,Bash,WebSearch,WebFetch" \
+            --model claude-sonnet-4-6
+
+      - name: Email digest to your inbox if due
+        env:
+          GMAIL_CLIENT_ID: ${{ secrets.GMAIL_CLIENT_ID }}
+          GMAIL_CLIENT_SECRET: ${{ secrets.GMAIL_CLIENT_SECRET }}
+          GMAIL_REFRESH_TOKEN: ${{ secrets.GMAIL_REFRESH_TOKEN }}
+        run: python scripts/send_digest.py
+
+      - name: Commit results
+        run: |
+          git config user.name "job-scout-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git diff --staged --quiet || git commit -m "Job scout run $(date -u +%Y-%m-%d)"
+          git push
