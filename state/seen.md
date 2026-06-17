@@ -4,3 +4,8 @@ One line per role already logged, so the scan can skip duplicates without re-rea
 Format: `Company — Title — posted-date — tier`
 
 - Heidi Health — Senior Product Designer — 2026-02-17 — 🔥
+- Amber Electric — Staff/Principal Product Designer — 2026-06-17 — 🔥
+- Cadmus — Senior Product Designer — 2026-05-18 — 🔥
+- Canva — Lead Product Designer Design Systems — 2026-06-17 — ⏳
+- UniSuper — Senior Experience Designer — 2026-06-17 — ⏳
+- Airwallex — Staff Product Designer — 2026-06-17 — ⏳
