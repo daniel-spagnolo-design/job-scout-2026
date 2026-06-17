@@ -49,7 +49,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
-          claude -p "Read scan-prompt.md in this repository and follow it exactly, then stop. The email dump for this run is at state/inbox-dump.md. Append results to jobs-log.md and write the digest body to state/digest-latest.md. Edit only those two files." \
+          claude -p "Read scan-prompt.md in this repository and follow it exactly, then stop. IMPORTANT: this API account is on a 30k input-tokens/minute tier — follow the 'Token budget' rules in scan-prompt.md strictly: prefer WebSearch over WebFetch, at most ~6 WebFetch calls total, only check the companies in state/targets-this-run.md, dedupe via state/seen.md (do not re-read all of jobs-log.md), and don't read the CV PDF. The email dump is at state/inbox-dump.md. Edit only jobs-log.md, state/seen.md, and state/digest-latest.md." \
             --dangerously-skip-permissions \
             --allowedTools "Read,Edit,Write,Bash,WebSearch,WebFetch" \
             --model claude-sonnet-4-6

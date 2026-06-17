@@ -3,6 +3,10 @@ scripts/credentials.json
 scripts/token.json
 *.env
 
+# Transient per-run files (regenerated each run; may contain email content)
+state/inbox-dump.md
+state/targets-this-run.md
+
 # Local noise
 .DS_Store
 __pycache__/
