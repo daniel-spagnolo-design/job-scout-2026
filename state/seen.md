@@ -9,3 +9,6 @@ Format: `Company — Title — posted-date — tier`
 - Canva — Lead Product Designer Design Systems — 2026-06-17 — ⏳
 - UniSuper — Senior Experience Designer — 2026-06-17 — ⏳
 - Airwallex — Staff Product Designer — 2026-06-17 — ⏳
+- Mable — Senior Product Designer — 2026-06-21 — ⏳
+- Heidi — Head of Product Design — 2026-06-21 — ⏳
+- Atlassian — Lead Product Designer — 2026-06-21 — ⏳

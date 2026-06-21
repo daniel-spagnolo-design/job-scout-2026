@@ -8,6 +8,7 @@ Running master file. The weekly scan appends here; existing entries are never re
 <!-- Each run adds one line at the top. Format: YYYY-MM-DD · alerts read: N · new 🔥: N · new ⏳: N · notes. -->
 <!-- Digest counter: a digest draft is created on every SECOND run. Track parity here. -->
 
+- 2026-06-21 · alerts read: 18 · new 🔥: 0 · new ⏳: 3 · notes: Mable Senior PD ⏳ (disability/aged care healthtech, perm, rate unknown); Atlassian Lead PD ⏳ (enterprise B2B SaaS, full JD not retrieved — enrich next run); Heidi Head of PD ⏳ (Head-of/leadership, not IC — different from logged 🔥 Senior PD). Hard-filtered: Easygo (gambling), Pulse Identity (rate $7–10k/month, below threshold). Discarded: Airwallex Product Design Manager (management, not IC), AustralianSuper Senior Service Designer (wrong discipline). Up Bank: brand designer only, no PD role. Most WebFetch calls 403/redirect — scored from search snippets.
 - 2026-06-17 · alerts read: 10 · new 🔥: 2 · new ⏳: 3 · notes: Amber + Cadmus both confirmed open (calibration matches, both 🔥); Canva Lead PD Design Systems added ⏳; UniSuper 12m contract ⏳; Airwallex Staff PD ⏳ (enrich next run — full JD needed). Heidi Health rechecked (target company) — already logged, skipped. Hard-filtered: Easygo/KICK (gambling), Aristocrat (gambling+Adelaide), Sitemate ($90–120k salary), Mathspace (level unclear/entry). AGL Digital PD appeared in SEEK alerts but insufficient JD detail to score — monitor next run.
 - 2026-06-15 · SETUP VALIDATION (manual, not a scheduled run) · target-company pages tested: Heidi, Dovetail · new 🔥: 1 · new ⏳: 0 · notes: pipeline verified end-to-end; Heidi careers page parsed cleanly and a strong-fit role found; Dovetail had no current product-design role (correctly logged nothing). Counter left at 0 — first real run starts the count.
 
@@ -77,6 +78,30 @@ Last digest sent after run: —
 - Contacts: No named hiring manager identified. Check Airwallex careers page for the specific role variant before applying.
 - Link: https://careers.airwallex.com/job/2e2b7832-9e48-45da-ab0e-030708f0a45b/staff-product-designer/ | https://careers.airwallex.com/
 
+### Senior Product Designer — Mable — Perm — Posted ~Jun 2026
+- Score: 50/100 (perm −10 applied; enrich next run for full honest-ad check)
+- Why it fits: Mable is Australia's largest disability and aged care support marketplace (200+ staff, 3m+ support hours/year) — a health/public-good domain with direct resonance to Daniel's Babylon and Unmind background. Role involves end-to-end design in cross-functional squads: user research and usability testing, workshopping, concept development and validation, UX + UI in Figma. "Lean and human-centred design approach" framing. Broad design team (UI, content, product, service, strategic designers) suggests design maturity. Down: perm penalty applied, salary not stated (Glassdoor median ~$119k is below $140k threshold — keep and flag until official salary confirmed or denied), ad lacks explicit "what this is NOT" section (no honest-ad bonus), 3-5 year minimum understates Daniel's seniority, "decision-makers and action" framing is mild speed-culture signal.
+- Rate/salary signal: Not stated. Flag: rate unknown. Glassdoor estimate ~$119k — if official salary is below $140k this becomes a hard-filter reject. Confirm on application.
+- Start date: Active — flag "starts before ~9 Sep availability."
+- Contacts: No named hiring manager confirmed. Check Mable LinkedIn for design leadership.
+- Link: https://work180.com/en-au/for-women/employer/mable/job/396907/senior-product-designer | https://mable.recruitee.com/
+
+### Head of Product Design — Heidi — Perm (Full-time) — Posted ~Jun 2026
+- Score: N/A — Head-of / leadership role; logged per criteria (not scored as IC fit)
+- Why it fits: Heidi's clinical AI health product is a calibration-set perfect domain match (Senior PD already logged as 🔥). This parallel Head of Product Design opening signals Heidi is scaling its design leadership — the eventual Head is Daniel's future manager if he takes the Senior PD role. If Daniel is open to design leadership rather than IC, this is arguably the strongest management role on the radar: clinical AI, honest design culture, remote-friendly. Role is Sydney-based company, remote work listed, full-time perm.
+- Rate/salary signal: Not stated. Flag: rate unknown.
+- Start date: Active — flag "starts before ~9 Sep availability."
+- Contacts: No named contact confirmed. Search Heidi LinkedIn for current design or product leadership before applying.
+- Link: https://www.heidihealth.com/careers (specific posting URL not extracted — check directly)
+
+### Lead Product Designer — Atlassian — Perm — Posted ~Jun 2026
+- Score: ~50/100 (estimated from snippets; full JD not retrieved — enrich next run)
+- Why it fits: Atlassian (global B2B SaaS enterprise, 10,000+ staff, Team Anywhere distributed culture) has a Lead Product Designer open. Lead level signals strategic IC scope and cross-functional design ownership. Team Anywhere = Melbourne hybrid or AU remote, which fits. B2B SaaS domain matches Daniel's Culture Amp + Informed Decisions work. Down: large enterprise (no startup/scale-up bonus, enterprise penalty applied), full JD not retrieved (careers page returned empty — JS-rendered or auth-gated), product area unknown — without knowing which product (Jira/Confluence/Atlas) can't confirm domain/discovery alignment. Score is a rough estimate; could go higher or lower once full ad is read. Enrich next run.
+- Rate/salary signal: Not stated. Flag: rate unknown. Atlassian salaries typically strong; confirm on application.
+- Start date: Active — flag "starts before ~9 Sep availability."
+- Contacts: No named hiring manager confirmed. Check Atlassian LinkedIn for the relevant design team.
+- Link: https://www.atlassian.com/company/careers/details/15945
+
 ---
 
 ## 💀 Expired but relevant — outreach targets
@@ -91,7 +116,8 @@ _None yet._
 ## 🏢 Companies hiring repeatedly (warm signal even with no open role)
 <!-- - Company — pattern observed — contact -->
 
-_None yet._
+- **Heidi** — Senior PD (🔥, logged Feb 2026) + Head of Product Design (⏳, logged Jun 2026) open concurrently → design team scaling aggressively. Two roles active simultaneously; the HoD hire means Senior PD will have a named design manager soon.
+- **Airwallex** — 4+ design roles advertised concurrently (Staff PD, Staff PD Design Systems, Staff PD UI/UX, Senior PD, Product Design Manager) across Jun 2026. Repeated Indeed alerts over multiple days. Major hiring push — role may be hard to fill or team is expanding significantly.
 
 ---
 
@@ -108,4 +134,5 @@ _None yet._
 <!-- Rate trends, demand patterns, which domains are hiring designers. One or two lines per run. -->
 
 - 2026-06-15 (setup): AU AI-health is hiring designers hard — Heidi alone has 10+ open roles incl. Senior Product Designer + Head of Product Design (Melbourne), signalling a design team being scaled. Dovetail (Sydney) currently hiring eng/sales but no design — worth watching.
+- 2026-06-21 (run 2): Disability/aged care healthtech (Mable) added to radar — domain overlap with Babylon/Unmind background makes it worth watching. Atlassian Lead PD live but careers page not fetchable (JS-rendered?) — careers.atlassian.com needs direct visit. Heidi now advertising both Senior PD (🔥) + Head of PD simultaneously — design leadership hire imminent, Senior PD manager identity should be clear shortly. Airwallex advertising 5 concurrent design roles — unusual breadth for one company; team may be doubling. SEEK alerts again ~90% non-product-design noise (textile, graphic, clothing); dedicated search terms critical.
 - 2026-06-17 (run 1): Two calibration-match 🔥 roles live simultaneously (Amber + Cadmus) — unusual and encouraging. SEEK alerts dominated by graphic/fashion design noise; dedicated product-design search terms needed. Airwallex advertising Staff PD repeatedly (2 Indeed alerts in 2 days) — role may be hard to fill, possible opportunity. AGL Digital PD in SEEK alerts signals energy sector continuing to invest in digital product post-Amber trend.

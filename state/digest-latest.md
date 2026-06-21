@@ -1,25 +1,20 @@
-# Job Scout Digest — 2026-06-17
+# Job Scout Digest — 2026-06-21
 
-## 🔥 New strong fits (2)
-
-**Staff/Principal Product Designer — Amber Electric (Melbourne, perm)**
-Your calibration "Textbook 🔥." Most senior IC designer role; "strategically important problems too big or too cross-functional for one stream." Energy/climate scale-up (~80k customers). Salary not on listing — calibration reference was $180–240k + options. Worth applying before Sep availability date.
-→ https://jobs.lever.co/amberelectric/231ccb7e-b488-45a3-b4f7-7640fe0a7378
-
-**Senior Product Designer — Cadmus (Melbourne hybrid, perm)**
-Your other calibration "Textbook 🔥." EdTech platform for higher-ed assessment (millions of students). "Design is the mechanism of academic integrity." Explicit "what this role is NOT" section. End-to-end ownership of design system + complex institutional workflows. Posted 2026-05-18.
-→ https://apply.workable.com/cadmus-io/j/7537B56A80
+## 🔥 New strong fits this run (0)
+None new. Existing 🔥 roles (Amber, Cadmus, Heidi Senior PD) remain live — prioritise those.
 
 ---
 
 ## ⏳ New maybes (3)
 
-- **Lead Product Designer Design Systems — Canva** (Melbourne, perm) — craft-led DS ownership, large unicorn, salary ~$150–270k+
-- **Senior Experience Designer — UniSuper** (Melbourne, 12m contract) — discovery-led brief, 3 days/wk in office (at limit)
-- **Staff Product Designer — Airwallex** (Melbourne, perm) — Staff level fintech, enrich next run for JD detail
+- **Mable — Senior Product Designer** (AU remote, perm) — disability & aged care healthtech, 200+ staff; explicit discovery/research, health domain. Perm, salary not stated — confirm not below $140k. → https://work180.com/en-au/for-women/employer/mable/job/396907/senior-product-designer
+
+- **Heidi — Head of Product Design** (Sydney/remote, perm) — same clinical AI company as your 🔥 Senior PD. This is a leadership/Head-of role, not IC — logged for visibility. If considering design management, this is the strongest candidate on the board. → https://www.heidihealth.com/careers
+
+- **Atlassian — Lead Product Designer** (AU remote/hybrid, perm) — B2B SaaS enterprise, Lead level; full JD not retrieved (page JS-gated). Rough estimate ⏳; enrich next run. → https://www.atlassian.com/company/careers/details/15945
 
 ---
 
 ## Market note
 
-Two of your three "would apply" calibration roles are simultaneously open. Rare alignment — prioritise Amber and Cadmus this week even though Sep start is ~11 weeks away.
+Heidi now advertising Senior PD (🔥) + Head of PD simultaneously — design leadership hire imminent, so the Senior PD role will soon have a named manager. Airwallex advertising 5 concurrent design roles (Staff PD, Design Systems, UI/UX, Senior PD, Product Design Manager) — unusual breadth, possible team doubling.
