@@ -7,12 +7,16 @@ Runs in GitHub Actions after the scan. Owns the run counter and the digest caden
   (state/digest-latest.md) to the Gmail account itself (Daniel -> Daniel), so it lands
   in his inbox with a notification. The digest is also committed as a file in the repo.
 
+Auth is a Gmail App Password (SMTP), via two repo secrets:
+  GMAIL_ADDRESS, GMAIL_APP_PASSWORD
+
 Missing Gmail secrets or no digest file -> still bumps the counter, skips the send,
 exits 0 (so the workflow's commit step records the counter increment).
 """
-import base64
 import json
 import os
+import smtplib
+import ssl
 import sys
 from email.mime.text import MIMEText
 
@@ -22,10 +26,8 @@ STATE_PATH = os.path.join(STATE_DIR, "run-state.json")
 DIGEST_PATH = os.path.join(STATE_DIR, "digest-latest.md")
 DIGEST_EVERY = 2  # email on every Nth run
 
-SCOPES = [
-    "https://www.googleapis.com/auth/gmail.readonly",
-    "https://www.googleapis.com/auth/gmail.send",  # email the digest to yourself
-]
+SMTP_HOST = "smtp.gmail.com"
+SMTP_PORT = 465
 
 
 def load_state():
@@ -44,27 +46,19 @@ def save_state(state):
 
 
 def send_email(subject, body):
-    from google.oauth2.credentials import Credentials
-    from googleapiclient.discovery import build
+    addr = os.environ["GMAIL_ADDRESS"]
+    pw = os.environ["GMAIL_APP_PASSWORD"]
 
-    creds = Credentials(
-        token=None,
-        refresh_token=os.environ["GMAIL_REFRESH_TOKEN"],
-        client_id=os.environ["GMAIL_CLIENT_ID"],
-        client_secret=os.environ["GMAIL_CLIENT_SECRET"],
-        token_uri="https://oauth2.googleapis.com/token",
-        scopes=SCOPES,
-    )
-    svc = build("gmail", "v1", credentials=creds)
-    own_email = svc.users().getProfile(userId="me").execute().get("emailAddress", "me")
+    msg = MIMEText(body, _charset="utf-8")
+    msg["To"] = addr  # send to yourself; lands in your inbox
+    msg["From"] = addr
+    msg["Subject"] = subject
 
-    msg = MIMEText(body)
-    msg["to"] = own_email  # send to yourself; lands in your inbox
-    msg["from"] = own_email
-    msg["subject"] = subject
-    raw = base64.urlsafe_b64encode(msg.as_bytes()).decode()
-    svc.users().messages().send(userId="me", body={"raw": raw}).execute()
-    return own_email
+    ctx = ssl.create_default_context()
+    with smtplib.SMTP_SSL(SMTP_HOST, SMTP_PORT, context=ctx) as s:
+        s.login(addr, pw)
+        s.sendmail(addr, [addr], msg.as_string())
+    return addr
 
 
 def main():
@@ -74,8 +68,7 @@ def main():
 
     due = (run_no - state.get("last_digest_run", 0)) >= DIGEST_EVERY
     have_secrets = all(
-        os.environ.get(k)
-        for k in ("GMAIL_CLIENT_ID", "GMAIL_CLIENT_SECRET", "GMAIL_REFRESH_TOKEN")
+        os.environ.get(k) for k in ("GMAIL_ADDRESS", "GMAIL_APP_PASSWORD")
     )
 
     if not due:

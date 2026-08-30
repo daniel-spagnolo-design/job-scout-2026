@@ -8,16 +8,21 @@ Runs in GitHub Actions before the scan. Two jobs:
 2. Pulls job-alert emails from the past ~8 days carrying the `job-scout` Gmail label and
    writes them (size-capped) to state/inbox-dump.md.
 
-Auth comes from three repo secrets (set via get_gmail_token.py):
-  GMAIL_CLIENT_ID, GMAIL_CLIENT_SECRET, GMAIL_REFRESH_TOKEN
-If those are missing, the email step is skipped (exit 0) but the rotation file is still
-written, so the web-only scan still runs.
+Auth is a Gmail App Password (IMAP), via two repo secrets:
+  GMAIL_ADDRESS, GMAIL_APP_PASSWORD
+App Passwords need 2-Step Verification on the Google account and never expire on a
+timer — unlike OAuth "Testing"-mode refresh tokens, which was the old approach.
+If the secrets are missing OR the IMAP fetch fails, the email step degrades to a note
+in inbox-dump.md and exits 0, so the web-only scan still runs.
 """
-import base64
+import email
+import imaplib
 import json
 import os
 import re
 import sys
+from datetime import datetime, timedelta
+from email.header import decode_header, make_header
 from html import unescape
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -28,8 +33,9 @@ STATE_PATH = os.path.join(STATE_DIR, "run-state.json")
 TARGET_LIST = os.path.join(ROOT, "target-companies.md")
 
 LABEL_NAME = "job-scout"
-LOOKBACK = "newer_than:8d"
-MAX_THREADS = 60
+IMAP_HOST = "imap.gmail.com"
+LOOKBACK_DAYS = 8
+MAX_MSGS = 60
 
 # Token-control caps (Tier 1 friendly)
 TARGET_BATCH = 4        # target companies checked per run (20 / 4 = full sweep every 5 runs)
@@ -86,7 +92,7 @@ def write_target_rotation():
     print(f"Target rotation: {[c for c, _ in batch]}")
 
 
-# ---------- email ingest ----------
+# ---------- email ingest (IMAP) ----------
 
 def _strip_html(html):
     html = re.sub(r"(?is)<(script|style).*?</\1>", " ", html)
@@ -99,25 +105,44 @@ def _strip_html(html):
     return text.strip()
 
 
-def _decode(data):
-    return base64.urlsafe_b64decode(data.encode("utf-8")).decode("utf-8", "replace")
+def _decode_header(value):
+    if not value:
+        return ""
+    try:
+        return str(make_header(decode_header(value)))
+    except Exception:
+        return value
 
 
-def _extract_body(payload):
+def _extract_body(msg):
+    """Pull a text body out of an email.message.Message: prefer text/plain, else stripped HTML."""
     plain, html = [], []
 
-    def walk(part):
-        mime = part.get("mimeType", "")
-        body = part.get("body", {})
-        data = body.get("data")
-        if data and mime == "text/plain":
-            plain.append(_decode(data))
-        elif data and mime == "text/html":
-            html.append(_strip_html(_decode(data)))
-        for sub in part.get("parts", []) or []:
-            walk(sub)
+    def read(part):
+        try:
+            payload = part.get_payload(decode=True)
+        except Exception:
+            return ""
+        if payload is None:
+            return ""
+        charset = part.get_content_charset() or "utf-8"
+        try:
+            return payload.decode(charset, "replace")
+        except (LookupError, TypeError):
+            return payload.decode("utf-8", "replace")
 
-    walk(payload)
+    for part in msg.walk():
+        if part.is_multipart():
+            continue
+        disp = str(part.get("Content-Disposition") or "").lower()
+        if "attachment" in disp:
+            continue
+        ctype = part.get_content_type()
+        if ctype == "text/plain":
+            plain.append(read(part))
+        elif ctype == "text/html":
+            html.append(_strip_html(read(part)))
+
     body = ("\n".join(plain) if plain else "\n".join(html)).strip()
     if len(body) > MAX_MSG_CHARS:
         body = body[:MAX_MSG_CHARS] + "\n…[truncated]"
@@ -125,67 +150,72 @@ def _extract_body(payload):
 
 
 def ingest_email():
-    cid = os.environ.get("GMAIL_CLIENT_ID")
-    csecret = os.environ.get("GMAIL_CLIENT_SECRET")
-    rtoken = os.environ.get("GMAIL_REFRESH_TOKEN")
-    if not (cid and csecret and rtoken):
+    addr = os.environ.get("GMAIL_ADDRESS")
+    pw = os.environ.get("GMAIL_APP_PASSWORD")
+    if not (addr and pw):
         _write(DUMP_PATH, "# Inbox dump\n\n_Gmail secrets not set — web sources only._\n")
         print("Gmail secrets not set — skipping email ingest.")
         return
 
+    # Any IMAP/auth failure must degrade to a web-only scan, never crash the workflow.
+    imap = None
     try:
-        from google.oauth2.credentials import Credentials
-        from googleapiclient.discovery import build
-    except ImportError:
-        _write(DUMP_PATH, "# Inbox dump\n\n_google api libs missing._\n")
-        print("google api libs missing.")
-        return
+        imap = imaplib.IMAP4_SSL(IMAP_HOST, 993)
+        imap.login(addr, pw)
 
-    creds = Credentials(
-        token=None, refresh_token=rtoken, client_id=cid, client_secret=csecret,
-        token_uri="https://oauth2.googleapis.com/token",
-        scopes=[
-            "https://www.googleapis.com/auth/gmail.readonly",
-            "https://www.googleapis.com/auth/gmail.send",
-        ],
-    )
-    svc = build("gmail", "v1", credentials=creds)
+        # Gmail exposes each label as a selectable mailbox of the same name.
+        status, _ = imap.select(f'"{LABEL_NAME}"', readonly=True)
+        if status != "OK":
+            _write(DUMP_PATH, f"# Inbox dump\n\n_Label '{LABEL_NAME}' not found._\n")
+            print(f"Label '{LABEL_NAME}' not found.")
+            return
 
-    labels = svc.users().labels().list(userId="me").execute().get("labels", [])
-    label_id = next((l["id"] for l in labels if l["name"].lower() == LABEL_NAME), None)
-    if not label_id:
-        _write(DUMP_PATH, f"# Inbox dump\n\n_Label '{LABEL_NAME}' not found._\n")
-        print(f"Label '{LABEL_NAME}' not found.")
-        return
+        since = (datetime.utcnow() - timedelta(days=LOOKBACK_DAYS)).strftime("%d-%b-%Y")
+        status, data = imap.search(None, "SINCE", since)
+        ids = data[0].split() if (status == "OK" and data and data[0]) else []
+        ids = ids[-MAX_MSGS:]  # newest N
 
-    resp = svc.users().threads().list(
-        userId="me", labelIds=[label_id], q=LOOKBACK, maxResults=MAX_THREADS
-    ).execute()
-    threads = resp.get("threads", [])
-
-    chunks = [f"# Inbox dump — {len(threads)} thread(s), label '{LABEL_NAME}', {LOOKBACK}\n"]
-    total = len(chunks[0])
-    for t in threads:
-        full = svc.users().threads().get(userId="me", id=t["id"], format="full").execute()
-        for msg in full.get("messages", []):
-            headers = {h["name"].lower(): h["value"] for h in msg["payload"].get("headers", [])}
-            body = _extract_body(msg["payload"])
+        chunks = [
+            f"# Inbox dump — {len(ids)} message(s), label '{LABEL_NAME}', "
+            f"newer_than:{LOOKBACK_DAYS}d\n"
+        ]
+        total = len(chunks[0])
+        for num in reversed(ids):  # newest first
+            status, msgdata = imap.fetch(num, "(RFC822)")
+            if status != "OK" or not msgdata or not msgdata[0]:
+                continue
+            msg = email.message_from_bytes(msgdata[0][1])
+            body = _extract_body(msg)
             if not body:
                 continue
             block = (
-                f"\n\n---\n## {headers.get('subject', '(no subject)')}\n"
-                f"**From:** {headers.get('from', '?')} · **Date:** {headers.get('date', '')}\n\n{body}\n"
+                f"\n\n---\n## {_decode_header(msg.get('Subject')) or '(no subject)'}\n"
+                f"**From:** {_decode_header(msg.get('From')) or '?'} · "
+                f"**Date:** {msg.get('Date', '')}\n\n{body}\n"
             )
             if total + len(block) > MAX_DUMP_CHARS:
                 chunks.append("\n\n_[dump truncated to stay within token budget]_\n")
-                _write(DUMP_PATH, "".join(chunks))
-                print(f"Wrote {DUMP_PATH} (capped) from {len(threads)} thread(s).")
-                return
+                break
             chunks.append(block)
             total += len(block)
 
-    _write(DUMP_PATH, "".join(chunks))
-    print(f"Wrote {DUMP_PATH} from {len(threads)} thread(s).")
+        _write(DUMP_PATH, "".join(chunks))
+        print(f"Wrote {DUMP_PATH} from {len(ids)} message(s).")
+    except Exception as e:  # noqa: BLE001 — any Gmail failure degrades to web-only
+        _write(
+            DUMP_PATH,
+            "# Inbox dump\n\n_Gmail fetch failed — continuing with web sources only._\n\n"
+            f"_Error: {type(e).__name__}: {e}_\n\n"
+            "_Check the GMAIL_ADDRESS / GMAIL_APP_PASSWORD secrets and that IMAP is "
+            "enabled in Gmail settings — see SETUP-github-actions.md troubleshooting._\n",
+        )
+        print(f"Gmail fetch failed ({type(e).__name__}: {e}) — web-only scan.")
+    finally:
+        if imap is not None:
+            try:
+                imap.logout()
+            except Exception:
+                pass
 
 
 def main():

@@ -13,11 +13,10 @@ An automated agent that finds senior/staff/lead/principal **product design** rol
 | `target-companies.md` | 20 companies whose careers pages are checked directly. |
 | `jobs-log.md` | Running master output — the "welcome back" report. |
 | `email-alerts-setup.md` | One-time guide to wire up job-alert emails + the `job-scout` Gmail label. |
-| `SETUP-github-actions.md` | One-time guide to deploy the agent (repo, API key, Gmail OAuth, secrets). |
+| `SETUP-github-actions.md` | One-time guide to deploy the agent (repo, API key, Gmail app password, secrets). |
 | `.github/workflows/job-scout.yml` | Weekly schedule + the run steps. |
 | `scripts/fetch_alerts.py` | Pulls `job-scout` emails into `state/inbox-dump.md`. |
 | `scripts/send_digest.py` | Run counter + emails the digest to your own Gmail inbox every second run. |
-| `scripts/get_gmail_token.py` | One-time local helper to mint the Gmail refresh token. |
 | `state/run-state.json` | Run counter + last-digest bookkeeping. |
 
 ## Each weekly run
