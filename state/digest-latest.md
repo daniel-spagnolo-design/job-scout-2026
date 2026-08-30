@@ -1,20 +1,19 @@
-# Job Scout Digest — 2026-06-21
+# Job Scout Digest — 2026-08-30
 
 ## 🔥 New strong fits this run (0)
-None new. Existing 🔥 roles (Amber, Cadmus, Heidi Senior PD) remain live — prioritise those.
+
+None new this run. Existing 🔥 roles (Amber, Cadmus, Heidi Senior PD) — check if still live; they are 10+ weeks old.
 
 ---
 
-## ⏳ New maybes (3)
+## ⏳ New maybes (2)
 
-- **Mable — Senior Product Designer** (AU remote, perm) — disability & aged care healthtech, 200+ staff; explicit discovery/research, health domain. Perm, salary not stated — confirm not below $140k. → https://work180.com/en-au/for-women/employer/mable/job/396907/senior-product-designer
+- **Nintex — Senior Product Designer** (Melbourne remote, perm) — low-code/no-code + AI-assisted workflow automation; explicit discovery-through-delivery scope, mature design function (Staff/Principal designers in place). Rate unknown. Score: 65. → https://builtinmelbourne.com/job/senior-product-designer/8648914
 
-- **Heidi — Head of Product Design** (Sydney/remote, perm) — same clinical AI company as your 🔥 Senior PD. This is a leadership/Head-of role, not IC — logged for visibility. If considering design management, this is the strongest candidate on the board. → https://www.heidihealth.com/careers
-
-- **Atlassian — Lead Product Designer** (AU remote/hybrid, perm) — B2B SaaS enterprise, Lead level; full JD not retrieved (page JS-gated). Rough estimate ⏳; enrich next run. → https://www.atlassian.com/company/careers/details/15945
+- **Atticus — Senior Product Designer** (Melbourne hybrid / AU remote, perm) — legal document fact-checking scale-up (law firms + listed companies in AU/UK); full e2e ownership, $150–180k stated (honest-ad bonus). Score: 60. → https://apply.workable.com/atticustech/j/8299AD3AD8
 
 ---
 
 ## Market note
 
-Heidi now advertising Senior PD (🔥) + Head of PD simultaneously — design leadership hire imminent, so the Senior PD role will soon have a named manager. Airwallex advertising 5 concurrent design roles (Staff PD, Design Systems, UI/UX, Senior PD, Product Design Manager) — unusual breadth, possible team doubling.
+Dovetail finally has a design role open (Sydney Senior PD) but requires 4 days in-office — hard filter fail for now; watch for a remote variant. Jun 2026 ⏳ roles (Canva, UniSuper, Airwallex, Mable, Atlassian) are 10+ weeks old and likely expired — next run will move confirmed closures to outreach targets.

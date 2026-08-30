@@ -12,3 +12,5 @@ Format: `Company — Title — posted-date — tier`
 - Mable — Senior Product Designer — 2026-06-21 — ⏳
 - Heidi — Head of Product Design — 2026-06-21 — ⏳
 - Atlassian — Lead Product Designer — 2026-06-21 — ⏳
+- Nintex — Senior Product Designer — 2026-08 — ⏳
+- Atticus — Senior Product Designer — 2026-08 — ⏳
