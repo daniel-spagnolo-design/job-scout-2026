@@ -1,19 +1,13 @@
-# Job Scout Digest — 2026-08-30
+# Job Scout Digest — 2026-08-31 (Run 4)
 
-## 🔥 New strong fits this run (0)
+## 🔥 New strong fits this run
+_None._
 
-None new this run. Existing 🔥 roles (Amber, Cadmus, Heidi Senior PD) — check if still live; they are 10+ weeks old.
+## ⏳ New maybes this run (1)
 
----
-
-## ⏳ New maybes (2)
-
-- **Nintex — Senior Product Designer** (Melbourne remote, perm) — low-code/no-code + AI-assisted workflow automation; explicit discovery-through-delivery scope, mature design function (Staff/Principal designers in place). Rate unknown. Score: 65. → https://builtinmelbourne.com/job/senior-product-designer/8648914
-
-- **Atticus — Senior Product Designer** (Melbourne hybrid / AU remote, perm) — legal document fact-checking scale-up (law firms + listed companies in AU/UK); full e2e ownership, $150–180k stated (honest-ad bonus). Score: 60. → https://apply.workable.com/atticustech/j/8299AD3AD8
-
----
+**Design Lead – CRM Transformation — Bupa — Contract to Jan 2027 — Melbourne**
+Score: 55/100. Health insurance giant, discovery-led CRM transformation program — "lead discovery, customer experience, and service design activities from discovery through to delivery." Explicit HCD/design-thinking framing, broad cross-functional remit (product, tech, business, risk, legal). Health domain maps to your Babylon/Unmind background. Fixed-term contract (no perm penalty). Down: large enterprise, CRM context limits 0→1 or AI-native craft, rate unknown.
+Verify listing directly: https://careers.bupa.com.au (search "Design Lead CRM Transformation" — direct URL returned 404 this run).
 
 ## Market note
-
-Dovetail finally has a design role open (Sydney Senior PD) but requires 4 days in-office — hard filter fail for now; watch for a remote variant. Jun 2026 ⏳ roles (Canva, UniSuper, Airwallex, Mable, Atlassian) are 10+ weeks old and likely expired — next run will move confirmed closures to outreach targets.
+Bupa is actively hiring across multiple design disciplines (Design Lead, Principal Design Researcher, App Designer, Service Designer) simultaneously — a mature, scaling design function worth keeping on the radar. Lorikeet and New Forests had no product design openings this run. EatClub Senior PD (remote, hospitality tech) scored ~42 — discarded below threshold.

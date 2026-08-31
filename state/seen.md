@@ -14,3 +14,4 @@ Format: `Company — Title — posted-date — tier`
 - Atlassian — Lead Product Designer — 2026-06-21 — ⏳
 - Nintex — Senior Product Designer — 2026-08 — ⏳
 - Atticus — Senior Product Designer — 2026-08 — ⏳
+- Bupa — Design Lead CRM Transformation — 2026-08-31 — ⏳
