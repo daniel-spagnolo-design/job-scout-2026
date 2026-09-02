@@ -21,7 +21,7 @@ import json
 import os
 import re
 import sys
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from email.header import decode_header, make_header
 from html import unescape
 
@@ -210,7 +210,7 @@ def ingest_email():
             print(f"Label '{LABEL_NAME}' not found.")
             return
 
-        since = (datetime.utcnow() - timedelta(days=LOOKBACK_DAYS)).strftime("%d-%b-%Y")
+        since = (datetime.now(timezone.utc) - timedelta(days=LOOKBACK_DAYS)).strftime("%d-%b-%Y")
         status, data = imap.search(None, "SINCE", since)
         ids = data[0].split() if (status == "OK" and data and data[0]) else []
         ids = ids[-MAX_MSGS:]  # newest N
