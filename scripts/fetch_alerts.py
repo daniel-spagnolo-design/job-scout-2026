@@ -170,6 +170,33 @@ def ingest_email():
         print(f"Gmail not configured — missing {', '.join(missing)}. Skipping email ingest.")
         return
 
+    # imaplib sends `LOGIN <address> "<password>"` — it quotes the password but NOT
+    # the address, so any space inside GMAIL_ADDRESS becomes an extra argument and
+    # the server answers with an opaque `BAD Too many arguments provided`. Catch that
+    # here and say what's actually wrong. Describes shape only, never the values.
+    bad = []
+    if re.search(r"\s", addr):
+        bad.append(
+            "GMAIL_ADDRESS contains a space — it must be the bare address "
+            "(you@gmail.com), not a display name or angle brackets"
+        )
+    if "@" not in addr:
+        bad.append("GMAIL_ADDRESS doesn't look like an email address")
+    if bad:
+        _write(
+            DUMP_PATH,
+            "# Inbox dump\n\n_Gmail not configured — web sources only._\n\n"
+            + "".join(f"_{p}._\n\n" for p in bad),
+        )
+        for p in bad:
+            print(f"Gmail config problem: {p}")
+        return
+
+    if len(pw) != 16:
+        # Not fatal — Google app passwords are 16 chars, but don't block on it.
+        print(f"Warning: GMAIL_APP_PASSWORD is {len(pw)} chars after removing spaces; "
+              "Google app passwords are normally 16.")
+
     # Any IMAP/auth failure must degrade to a web-only scan, never crash the workflow.
     imap = None
     try:
