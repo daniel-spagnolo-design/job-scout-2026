@@ -153,8 +153,17 @@ def ingest_email():
     addr = os.environ.get("GMAIL_ADDRESS")
     pw = os.environ.get("GMAIL_APP_PASSWORD")
     if not (addr and pw):
-        _write(DUMP_PATH, "# Inbox dump\n\n_Gmail secrets not set — web sources only._\n")
-        print("Gmail secrets not set — skipping email ingest.")
+        # Name the missing secret — "secrets not set" alone hides a half-finished
+        # setup, and the run still goes green because email is non-fatal.
+        missing = [k for k, v in (("GMAIL_ADDRESS", addr), ("GMAIL_APP_PASSWORD", pw)) if not v]
+        _write(
+            DUMP_PATH,
+            "# Inbox dump\n\n_Gmail not configured — web sources only._\n\n"
+            f"_Missing repo secret(s): {', '.join(missing)}._\n\n"
+            "_Add them under Settings → Secrets and variables → Actions. "
+            "See SETUP-github-actions.md Part 3._\n",
+        )
+        print(f"Gmail not configured — missing {', '.join(missing)}. Skipping email ingest.")
         return
 
     # Any IMAP/auth failure must degrade to a web-only scan, never crash the workflow.
