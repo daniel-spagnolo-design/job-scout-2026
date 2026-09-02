@@ -150,8 +150,12 @@ def _extract_body(msg):
 
 
 def ingest_email():
-    addr = os.environ.get("GMAIL_ADDRESS")
-    pw = os.environ.get("GMAIL_APP_PASSWORD")
+    # Google shows app passwords as 4 space-separated groups. Those spaces are purely
+    # visual — leaving them in makes the IMAP server read the password as several
+    # arguments and reject the login with "Too many arguments provided". Strip them,
+    # and trim stray whitespace/newlines a copy-paste into a repo secret can carry.
+    addr = (os.environ.get("GMAIL_ADDRESS") or "").strip()
+    pw = "".join((os.environ.get("GMAIL_APP_PASSWORD") or "").split())
     if not (addr and pw):
         # Name the missing secret — "secrets not set" alone hides a half-finished
         # setup, and the run still goes green because email is non-fatal.

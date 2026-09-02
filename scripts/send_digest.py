@@ -46,8 +46,11 @@ def save_state(state):
 
 
 def send_email(subject, body):
-    addr = os.environ["GMAIL_ADDRESS"]
-    pw = os.environ["GMAIL_APP_PASSWORD"]
+    # Same normalisation as fetch_alerts.py: Google's app-password display spaces
+    # break the SMTP login, so strip all whitespace from the password and trim the
+    # address.
+    addr = os.environ["GMAIL_ADDRESS"].strip()
+    pw = "".join(os.environ["GMAIL_APP_PASSWORD"].split())
 
     msg = MIMEText(body, _charset="utf-8")
     msg["To"] = addr  # send to yourself; lands in your inbox
