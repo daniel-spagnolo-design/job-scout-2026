@@ -17,3 +17,5 @@ Format: `Company — Title — posted-date — tier`
 - Bupa — Design Lead CRM Transformation — 2026-08-31 — ⏳
 - Blinq — Staff Product Designer — 2026-09-02 — 🔥
 - Blinq — Senior Product Designer — 2026-09-02 — ⏳
+- Lyrebird Health — Lead Product Designer — 2026-08-25 — ⏳
+- Removify — Lead Product Designer — 2026-09-01 — ⏳

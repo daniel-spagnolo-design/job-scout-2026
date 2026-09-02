@@ -15,6 +15,30 @@ Running master file. The weekly scan appends here; existing entries are never re
 - ⚠️ Issues: one per bullet
 Omit empty sub-sections. -->
 
+### 2026-09-02 · run 6
+- 📥 Alerts read: 6
+- ✅ New: 🔥 0 · ⏳ 2
+- **Added**
+  - ⏳ **Lyrebird Health** — Lead Product Designer · 70/100 · Melbourne · health AI startup · verify role still active
+  - ⏳ **Removify** — Lead Product Designer · 52/100 · South Yarra Melbourne · perm · $160k–190k · IC ownership, domain gap
+- **Hard-filtered**
+  - **Department of Customer Service** — Senior PD · likely Sydney hybrid, not Melbourne-commutable
+  - **Instabooks** — Mobile UX/UI Designer · below senior level
+  - **NexGen Cloud** — Product Designer · below senior level (no Senior qualifier in title)
+  - **PROFOUND** — Senior Product Designer - Mechanical · wrong discipline (mechanical design)
+  - **Create Careers** — Product Design & Development Manager · manufacturing, not digital UX
+  - **Early Settler** — Creative Lead Designer · retail/furniture, not digital product design
+  - **The Lekker Agency** — Mid-Weight Graphic Designer · below senior + wrong discipline
+  - **ABN Group** — Graphic Designer · wrong discipline
+- **Discarded**
+  - **Jobgether** (×2) — Lead PD Marketplace + Lead PD Growth · no underlying company identified, insufficient info
+  - **ProcurePro** — Senior PD · insufficient role detail; ~25/100 from snippets; check next run if ad reveals discovery/craft signals
+  - **Tinybeans** — Head of Product · not a product design role
+- 🎯 Targets checked: Atlassian (seen), Airwallex (seen), Mable (seen), Up Bank (no PD role — consistent with run 2)
+- ⚠️ Issues
+  - Lyrebird homerun listing 404'd — role may be closed; verify via lyrebird.ai/careers or LinkedIn job ID 4451549429
+  - Jun 2026 ⏳ roles (Canva, UniSuper, Airwallex, Mable, Atlassian) now 11+ weeks old — likely expired; verify and move to outreach targets next run
+
 ### 2026-09-02 · run 5b — calibration targets
 - 📥 Alerts read: 0 _(Gmail IMAP error — web sources only)_
 - ✅ New: 🔥 0 · ⏳ 0
@@ -444,6 +468,54 @@ Last digest sent after run: —
 - 🎯 Angle: ex-Babylon/Unmind health designer with complex B2B end-to-end ownership (Culture Amp AI suite, Informed Decisions flagship redesign + design system) — maps directly to the CRM transformation brief's cross-functional, discovery-led scope.
 - 🔗 Link: https://careers.bupa.com.au/job/melbourne/design-lead-crm-transformation/40796/42455981824 _(returned 404 on fetch — verify directly on careers.bupa.com.au)_
 
+### ⏳ Lead Product Designer — Lyrebird Health
+**70/100** _(contract type unknown — if freelance/contract confirmed as per prior listing, → ~80/100 🔥; scored partly from email + 2024 listing structure; verify role still active)_ · Contract/Perm TBC · Melbourne hybrid (~3 days) · Found 2026-08-25
+
+**Why it fits**
+- Health AI startup — automating clinical documentation to reduce clinician burnout.
+- AI-native product (clinical note-taking and documentation agents): maps to Culture Amp AI Coach work.
+- Discovery and user research explicitly part of the role (per prior listing structure for same product).
+- Second designer on a small team — broad remit and high visible impact.
+- Domain overlap: Babylon Health (NHS GP at Hand) and Unmind are direct proof points.
+- Small, well-funded startup with a Head of Design in place.
+- Lead level is an appropriate step up from Senior IC scope.
+
+**Watch-outs**
+- Homerun listing 404'd — role may have been filled or URL changed; verify before applying.
+- Contract type unconfirmed for 2026 listing (prior listing was freelance — perm −10 applied as precaution).
+- Broad scope ("not a traditional design-only role; requires marketing and strategy input") — mild unicorn signal, expected for a 2nd designer.
+- "Shifting deadlines, limited processes" language — startup realism; watch for speed-worship culture.
+
+**Practicals**
+- 💰 Rate/salary: ⚠️ rate unknown — "flexible and dependent on candidate experience" per prior listing
+- 📅 Start: ⚠️ starts before ~9 Sep availability — worth an early conversation regardless
+- 👤 Contacts: no named hiring manager confirmed publicly; no named contact found
+- 🎯 Angle: ex-Babylon Health (NHS GP at Hand) + ex-Unmind mental health designer + Culture Amp AI Coach — the exact intersection of health and AI-native product design that Lyrebird needs
+- 🔗 Link: https://lyrebird.homerun.co/product-designer _(404 at time of run — check https://lyrebird.ai/careers or LinkedIn job ID 4451549429)_
+
+### ⏳ Lead Product Designer — Removify
+**52/100** _(perm −10 applied)_ · Perm · South Yarra, Melbourne (hybrid) · Found 2026-09-01
+
+**Why it fits**
+- IC Lead with no direct reports — stays in craft, not management.
+- "Real design ownership" of both internal systems and customer-facing products.
+- Competitive perm salary ($160k–190k + super) stated upfront — honest-ad signal.
+- Small, fast-growing SaaS startup — high impact, broad remit.
+- Melbourne hybrid fits.
+
+**Watch-outs**
+- Online reputation management domain — not health, gov, education, or other preferred public-good area.
+- Perm penalty applied — domain must be strong-fit for a role to survive it at this score.
+- No AI-native or discovery signals in the visible job description.
+- "Scope to grow into product ownership" may signal management expectations down the track.
+
+**Practicals**
+- 💰 Rate/salary: $160k–190k + super (perm, stated). Passes $140k hard filter. ✓
+- 📅 Start: not stated — verify; flag if before 9 Sep 2026.
+- 👤 Contacts: no named design hiring manager confirmed; no named contact found
+- 🎯 Angle: IC Lead at a growth-stage startup, staying in craft with salary progression — lead-without-management pitch
+- 🔗 Link: https://au.seek.com/Removify-jobs _(check SEEK directly for the specific Lead Product Designer listing)_
+
 ---
 
 ## 💀 Expired but relevant — outreach targets
@@ -480,6 +552,15 @@ _None yet._
 
 ## 📊 Market notes
 <!-- Newest first. A dated **YYYY-MM-DD (run N)** line, then one bullet per observation. -->
+
+**2026-09-02 (run 6)**
+- Lyrebird Health (health AI, Melbourne) has a Lead PD role in the inbox — homerun listing 404'd; verify via lyrebird.ai/careers or LinkedIn (job ID 4451549429).
+- Removify (reputation management SaaS, South Yarra) hiring Lead PD at $160k–190k — competitive salary but domain gap keeps it at ⏳ 52.
+- Gmail now functional — 6 emails ingested this run (LinkedIn + Indeed + SEEK alerts).
+- ProcurePro (construction procurement SaaS, AU remote) has a Senior PD role but JD detail not retrievable from snippets; score ~25 from available signals — check next run.
+- SEEK alerts again dominated by non-digital-product roles (mechanical, graphic, furniture design) — filter noise unchanged.
+- Jun 2026 ⏳ roles (Canva, UniSuper, Airwallex, Mable, Atlassian) now 11+ weeks old — very likely expired; verify and move to outreach targets next run.
+- Up Bank has no product designer role open — 2nd confirmation; consistent with run 2.
 
 **2026-09-02 (run 5)**
 - Blinq (Melbourne startup, digital business cards) hiring two PD roles concurrently — Staff and Senior.
