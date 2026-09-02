@@ -15,6 +15,19 @@ Running master file. The weekly scan appends here; existing entries are never re
 - ⚠️ Issues: one per bullet
 Omit empty sub-sections. -->
 
+### 2026-09-02 · run 5b — calibration targets
+- 📥 Alerts read: 0 _(Gmail IMAP error — web sources only)_
+- ✅ New: 🔥 0 · ⏳ 0
+- **Hard-filtered**
+  - **Amber** — Mid-Level UX/UI Designer (below senior)
+- **Discarded**
+  - **Heidi Health** — no new roles beyond already-logged entries
+  - **Cadmus** — no new roles; Senior PD still listed (same as logged)
+  - **Canva** — no new roles; Lead PD Design Systems still listed (same as logged)
+- ⚠️ Issues
+  - Gmail IMAP error persists — web sources only
+  - Victorian Dept of Government Services — Lead PD found via search; listing blocked (403); investigate manually
+
 ### 2026-09-02 · run 5
 - 📥 Alerts read: 0 _(Gmail IMAP error — web sources only)_
 - ✅ New: 🔥 1 · ⏳ 1
