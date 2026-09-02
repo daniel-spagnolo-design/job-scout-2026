@@ -15,6 +15,21 @@ Running master file. The weekly scan appends here; existing entries are never re
 - ⚠️ Issues: one per bullet
 Omit empty sub-sections. -->
 
+### 2026-09-02 · run 5
+- 📥 Alerts read: 0 _(Gmail IMAP error — web sources only)_
+- ✅ New: 🔥 1 · ⏳ 1
+- **Added**
+  - 🔥 **Blinq** — Staff Product Designer · 80/100 · Melbourne hybrid 3 days · perm · consumer networking startup
+  - ⏳ **Blinq** — Senior Product Designer · 72/100 · Melbourne hybrid · perm · enrich next run
+- **Hard-filtered**
+  - **SafetyCulture** — Product Designer Design Systems · Sydney hybrid, no AU-remote confirmed
+- **Discarded**
+  - **Sapia.ai** — no product design roles found
+  - **Harrison.ai** — no product design roles found (open positions are non-design)
+- ⚠️ Issues
+  - Gmail IMAP error (bad arguments) — web sources only
+  - Lever and startup.jobs returned 403 — Blinq roles scored from search snippets only
+
 ### 2026-08-31 · run 4
 - 📥 Alerts read: 0 _(Gmail not configured)_
 - ✅ New: 🔥 0 · ⏳ 1
@@ -101,6 +116,30 @@ Last digest sent after run: —
 **Watch-outs** — one reservation per bullet (omit if none)
 **Practicals** — 💰 rate · 📅 start · 👤 contacts · 🎯 angle · 🔗 link -->
 
+### 🔥 Staff Product Designer — Blinq
+**80/100** _(perm −10 applied; scored from snippets only — enrich next run)_ · Perm · Melbourne hybrid (3 days/wk) · Found 2026-09-02
+
+**Why it fits**
+- Staff-level scope: leads design across Blinq's most important product surfaces.
+- End-to-end ownership — "from insight to execution" across iOS, Android and Web.
+- Melbourne HQ startup, raised $45M+, doubling ARR — high visibility, clear impact.
+- Small design team signals broad senior-IC remit.
+- Growth-stage scale-up matches your Culture Amp and Informed Decisions phase experience.
+
+**Watch-outs**
+- Perm only — handicap applied.
+- Consumer networking domain (digital business cards) — not a public-good or health area.
+- No AI-native or 0→1 language found in snippets.
+- 3 days/wk in office — at the maximum hybrid threshold.
+- Full JD not retrieved (Lever 403) — score is provisional.
+
+**Practicals**
+- 💰 Rate/salary: not stated. ⚠️ rate unknown
+- 📅 Start: not stated — verify; flag if before 9 Sep 2026.
+- 👤 Contacts: no named design leadership confirmed.
+- 🎯 Angle: ex-Culture Amp AI designer with end-to-end IC ownership and design system track record; Blinq's staff-level scope maps to your cross-functional seniority at Informed Decisions.
+- 🔗 Link: https://jobs.lever.co/blinq/8698989f-1f22-4b79-907d-3cc15eab783d | https://blinq.me/careers
+
 ### 🔥 Senior Product Designer — Heidi Health
 **92/100** _(perm −10 applied)_ · Perm · Melbourne/Sydney · Posted 2026-02-17 _(found in setup validation run)_
 
@@ -172,6 +211,27 @@ Last digest sent after run: —
 
 ## ⏳ Live & maybe
 <!-- Same shape as 🔥 above, lower score (50–74). -->
+
+### ⏳ Senior Product Designer — Blinq
+**72/100** _(perm −10 applied; scored from snippet only — enrich next run; see also 🔥 Staff PD above)_ · Perm · Melbourne hybrid · Found 2026-09-02
+
+**Why it fits**
+- Same company as 🔥 Staff PD — Blinq Melbourne startup, raised $45M+.
+- Senior level with broad product design remit assumed from company context.
+- Growth-stage scale-up signals clear IC impact opportunity.
+
+**Watch-outs**
+- Full JD not retrieved — score is provisional.
+- Perm only — handicap applied.
+- Consumer networking domain — not preferred public-good area.
+- Two Blinq roles open concurrently — verify scope before applying to both.
+
+**Practicals**
+- 💰 Rate/salary: not stated. ⚠️ rate unknown
+- 📅 Start: not stated — verify.
+- 👤 Contacts: no named contact found.
+- 🎯 Angle: same as 🔥 Staff PD above.
+- 🔗 Link: https://jobs.blackbird.vc/companies/blinq/jobs/71592596-senior-product-designer | https://designproject.io/jobs/jobs/senior-product-designer-at-blinq-cagx4g
 
 ### ⏳ Lead Product Designer (Design Systems) — Canva
 **60/100** _(perm −10 applied)_ · Perm · Posted ~Jun 2026
@@ -407,6 +467,12 @@ _None yet._
 
 ## 📊 Market notes
 <!-- Newest first. A dated **YYYY-MM-DD (run N)** line, then one bullet per observation. -->
+
+**2026-09-02 (run 5)**
+- Blinq (Melbourne startup, digital business cards) hiring two PD roles concurrently — Staff and Senior.
+- Harrison.ai and Sapia.ai have no product design roles open this rotation.
+- SafetyCulture's PD role is Sydney-only hybrid — hard filter.
+- Jun 2026 ⏳ roles (Canva, UniSuper, Airwallex, Mable, Atlassian) now 11+ weeks old — likely expired; verify and move to outreach targets next run.
 
 **2026-08-31 (run 4)**
 - Bupa is actively hiring multiple design roles — Design Lead, Principal Design Researcher, App Designer and Service Designer all surfaced this run.

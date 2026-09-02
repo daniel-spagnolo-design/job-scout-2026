@@ -15,3 +15,5 @@ Format: `Company — Title — posted-date — tier`
 - Nintex — Senior Product Designer — 2026-08 — ⏳
 - Atticus — Senior Product Designer — 2026-08 — ⏳
 - Bupa — Design Lead CRM Transformation — 2026-08-31 — ⏳
+- Blinq — Staff Product Designer — 2026-09-02 — 🔥
+- Blinq — Senior Product Designer — 2026-09-02 — ⏳

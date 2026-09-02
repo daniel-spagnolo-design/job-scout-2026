@@ -1,13 +1,15 @@
-# Job Scout Digest — 2026-08-31 (Run 4)
+# Job Scout — 2026-09-02
 
-## 🔥 New strong fits this run
-_None._
+## 🔥 New strong fits
+- **Staff Product Designer — Blinq** · 80/100 · rate unknown (perm)
+  - Why: Staff-level end-to-end ownership at a Melbourne startup doubling ARR; "from insight to execution" across iOS/Android/Web
+  - ⚠️ Full JD not retrieved (Lever 403) — scored from snippets; enrich next run
+  - https://jobs.lever.co/blinq/8698989f-1f22-4b79-907d-3cc15eab783d | https://blinq.me/careers
 
-## ⏳ New maybes this run (1)
+## ⏳ Also new
+- 1 new maybe — **Blinq Senior Product Designer** (72/100, perm, Melbourne hybrid) — see jobs-log.md
 
-**Design Lead – CRM Transformation — Bupa — Contract to Jan 2027 — Melbourne**
-Score: 55/100. Health insurance giant, discovery-led CRM transformation program — "lead discovery, customer experience, and service design activities from discovery through to delivery." Explicit HCD/design-thinking framing, broad cross-functional remit (product, tech, business, risk, legal). Health domain maps to your Babylon/Unmind background. Fixed-term contract (no perm penalty). Down: large enterprise, CRM context limits 0→1 or AI-native craft, rate unknown.
-Verify listing directly: https://careers.bupa.com.au (search "Design Lead CRM Transformation" — direct URL returned 404 this run).
-
-## Market note
-Bupa is actively hiring across multiple design disciplines (Design Lead, Principal Design Researcher, App Designer, Service Designer) simultaneously — a mature, scaling design function worth keeping on the radar. Lorikeet and New Forests had no product design openings this run. EatClub Senior PD (remote, hospitality tech) scored ~42 — discarded below threshold.
+## 📊 Market note
+- Blinq hiring two PD roles simultaneously — worth a direct visit to blinq.me/careers to get full JDs.
+- SafetyCulture Sydney-only hybrid; Harrison.ai and Sapia.ai have no design roles this rotation.
+- Jun 2026 ⏳ roles now 11+ weeks old — likely expired; next run should verify and move them to outreach targets.
