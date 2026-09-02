@@ -48,14 +48,72 @@ Apply `job-criteria.md` exactly:
 - **Never fabricate** names, emails, or URLs — write "no named contact found" if unknown.
 
 ### 4. Output — edit `jobs-log.md` and `state/seen.md`
-- **Append** new keepers under the correct section of `jobs-log.md` in the existing format. Never rewrite or reorder existing entries.
+- **Append** new keepers under the correct section of `jobs-log.md`. Never rewrite or reorder existing entries.
 - For every new role logged, append one line to `state/seen.md`: `Company — Title — posted-date — tier`.
 - Move newly-expired 🔥/⏳ roles into "Expired but relevant — outreach targets".
-- Update the master contact list table with any new names; add notable patterns to "Companies hiring repeatedly" and one line to "Market notes".
-- Add a dated line at the top of "Run history": `YYYY-MM-DD · alerts read: N · new 🔥: N · new ⏳: N · notes`. (The run counter in `state/run-state.json` is managed by the scripts — don't edit it.)
+- Update the master contact list table with any new names; add notable patterns to "Companies hiring repeatedly" and a dated entry to "Market notes".
+- Add a dated entry at the top of "Run history".
+- (The run counter in `state/run-state.json` is managed by the scripts — don't edit it.)
+
+#### ✍️ Formatting rules — SCANNABILITY IS THE POINT
+This file is read on a phone after months away. **One idea per bullet. Never write a wall of text.**
+- Never chain multiple facts into one bullet with `;` or `·`. Split them.
+- Keep each bullet to roughly one line — a dozen or so words. If it needs a comma-spliced clause, it's two bullets.
+- Put every negative/reservation under **Watch-outs**, never buried inside a "why it fits" sentence.
+- Bold the company/role name so it survives skim-reading.
+
+**Role entry — use exactly this shape:**
+```markdown
+### 🔥 [Role] — [Company]
+**NN/100** · Contract/Perm · [Location] · Posted YYYY-MM-DD
+
+**Why it fits**
+- One reason per bullet.
+- Tie at least one bullet to Daniel's actual background.
+
+**Watch-outs**
+- One reservation per bullet. Omit the whole section if there are none.
+
+**Practicals**
+- 💰 Rate/salary: … (add `⚠️ rate unknown` if not stated)
+- 📅 Start: … (add `⚠️ starts before ~9 Sep availability` if relevant)
+- 👤 Contacts: … (one bullet each if several; "no named contact found" if none)
+- 🎯 Angle: …
+- 🔗 Link: …
+```
+
+**Run-history entry — use exactly this shape:**
+```markdown
+### YYYY-MM-DD · run N
+- 📥 Alerts read: N
+- ✅ New: 🔥 N · ⏳ N
+- **Added**
+  - ⏳ **Company** — Role · NN/100 · one short qualifier
+- **Hard-filtered**
+  - **Company** — reason (one line)
+- **Discarded**
+  - **Company** — reason (one line)
+- ⚠️ Issues: fetch cap, unreachable boards, empty inbox — one bullet each
+```
+Omit any sub-section that's empty. **Market notes** follow the same rule: a dated `**YYYY-MM-DD (run N)**` line, then one bullet per observation.
 
 ### 5. Digest body — write `state/digest-latest.md`
-Overwrite `state/digest-latest.md` with a short, phone-readable digest of THIS run's new 🔥 roles (title, company, one-line why, link), then a one-line count of new ⏳, then any market note. `scripts/send_digest.py` decides whether to email it to Daniel's own inbox (every second run) — you just write the file.
+Overwrite it with a short, phone-readable digest of THIS run. Same scannability rules — bullets, never paragraphs:
+```markdown
+# Job Scout — YYYY-MM-DD
+
+## 🔥 New strong fits
+- **[Role] — [Company]** · NN/100 · [rate or "rate unknown"]
+  - Why: one line
+  - [link]
+
+## ⏳ Also new
+- N new maybes — see jobs-log.md
+
+## 📊 Market note
+- One line.
+```
+If there are no new 🔥 roles, say so in one line rather than padding. `scripts/send_digest.py` decides whether to email it (every second run) — you just write the file.
 
 ### 6. Close out
 Note in the run-history line anything that broke (board unreachable, empty inbox, hit the fetch cap, etc.).
