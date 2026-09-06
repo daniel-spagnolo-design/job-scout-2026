@@ -30,7 +30,7 @@ Education: General Assembly UX Design Immersive (London, 2014); Interaction Desi
 
 ## What I love working on
 - People-centred products with real impact; meaningful/public-good domains (health, mental wellbeing, energy/climate, education, gov).
-- AI-native product design — agents, copilots, AI interaction patterns (did this at Culture Amp).
+- AI-native product design — agents, agentic workflows, AI interaction patterns (did this at Culture Amp).
 - 0→1 and discovery; framing ambiguous problems before jumping to solutions.
 - High craft and accessibility as a first-class concern ("usable means accessible").
 - Design systems; end-to-end ownership; collaborating cross-functionally with PM/eng.
