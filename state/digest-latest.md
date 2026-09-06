@@ -1,20 +1,24 @@
-# Job Scout — 2026-09-02
+# Job Scout — 2026-09-06
 
 ## 🔥 New strong fits
-- None this run.
+No new 🔥 roles this run.
 
-## ⏳ Also new — 2 maybes
-- **Lead Product Designer — Lyrebird Health** · 70/100 · rate unknown
-  - Why: health AI startup (clinical documentation automation) — direct match for Babylon/Unmind + Culture Amp AI Coach background
-  - Watch: homerun listing 404'd — verify role still active at lyrebird.ai/careers or LinkedIn job ID 4451549429
-  - If contract/freelance confirmed: → ~80/100 🔥
-  - [https://lyrebird.homerun.co/product-designer]
-- **Lead Product Designer — Removify** · 52/100 · $160k–190k + super (perm)
-  - Why: IC Lead with no direct reports, real design ownership, competitive salary stated upfront, Melbourne hybrid
-  - Watch: online reputation management domain — not preferred public-good area; no AI/discovery signals
-  - [https://au.seek.com/Removify-jobs]
+## ⏳ Also new — 3 maybes
+- **Senior Product Designer (Flex Hiring) — SEEK Limited** · 55/100 · rate unknown
+  - Why: AI hiring transformation scope + design systems; Melbourne hybrid
+  - ⚠️ "Flex Hiring" = talent pool, may not be a live opening
+  - https://au.seek.com/job/94354510
+- **Senior Product Designer — Squiz** · 60/100 · rate unknown
+  - Why: explicit AI innovation + strategic discovery scope; Melbourne hybrid; scale-up
+  - https://apply.workable.com/squiz/j/992B185EFF
+- **Senior Product Designer — UpGuard** · 55/100 · rate unknown
+  - Why: discovery-explicit ("research plans, run interviews"); fully AU remote; B2B SaaS
+  - https://jobs.lever.co/upguard/3c788973-0109-4dff-99a7-8b1f48e6b706
+
+## 🗄️ Housekeeping
+- Jun 2026 ⏳ roles (Canva, UniSuper, Airwallex, Mable, Heidi HoD, Atlassian) moved to outreach targets — 12+ weeks old.
 
 ## 📊 Market note
-- Gmail now working — 6 alerts ingested; SEEK alerts remain ~80% non-product-design noise.
-- Jun 2026 ⏳ roles (Canva, UniSuper, Airwallex, Mable, Atlassian) are 11+ weeks old — likely expired; verify next run.
-- ProcurePro (construction SaaS, AU remote, Senior PD) in inbox but insufficient JD detail — check next run.
+- No 🔥 roles this run; market quiet for senior product design in Melbourne.
+- UpGuard (AU remote, cybersecurity SaaS) has the strongest discovery-explicit framing of the three new maybes.
+- Eucalyptus design hiring has shifted to London/UK — AU positions no longer visible.

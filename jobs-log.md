@@ -15,6 +15,26 @@ Running master file. The weekly scan appends here; existing entries are never re
 - ⚠️ Issues: one per bullet
 Omit empty sub-sections. -->
 
+### 2026-09-06 · run 7
+- 📥 Alerts read: 11
+- ✅ New: 🔥 0 · ⏳ 3
+- **Added**
+  - ⏳ **SEEK Limited** — Senior Product Designer (Flex Hiring) · 55/100 · Melbourne hybrid · perm · AI hiring transformation
+  - ⏳ **Squiz** — Senior Product Designer · 60/100 · Melbourne hybrid · perm · AI + strategic discovery scope
+  - ⏳ **UpGuard** — Senior Product Designer · 55/100 · AU remote · perm · explicit discovery, cybersecurity SaaS
+- **Hard-filtered**
+  - **Easygo Solutions (KICK)** — gambling industry
+  - **Everest Engineering** — perm, salary min $135k below $140k threshold
+  - **AustralianSuper** — "Product Designer" title, level unclear / likely below Senior
+  - **Department of Customer Service** — perm, salary min $129k below $140k
+  - **Eucalyptus** — current openings are London/UK-based only
+- **Discarded**
+  - **Jobgether** — Lead PD Marketplace · no underlying company identified (same as run 6)
+  - **SEEK alert noise** — graphic, fashion, packaging, physical-product roles (not digital product design)
+- **Moved to 💀**
+  - Jun 2026 ⏳ roles (Canva, UniSuper, Airwallex, Mable, Heidi HoD, Atlassian) — 12+ weeks old, moved to outreach targets
+- 🎯 Targets checked: Dovetail (unchanged · Sydney + 4 days onsite), Eucalyptus (UK shift confirmed), Atticus (already logged), Deputy (unchanged · Sydney hybrid)
+
 ### 2026-09-02 · run 6
 - 📥 Alerts read: 6
 - ✅ New: 🔥 0 · ⏳ 2
@@ -270,109 +290,6 @@ Last digest sent after run: —
 - 🎯 Angle: same as 🔥 Staff PD above.
 - 🔗 Link: https://jobs.blackbird.vc/companies/blinq/jobs/71592596-senior-product-designer | https://designproject.io/jobs/jobs/senior-product-designer-at-blinq-cagx4g
 
-### ⏳ Lead Product Designer (Design Systems) — Canva
-**60/100** _(perm −10 applied)_ · Perm · Posted ~Jun 2026
-
-**Why it fits**
-- Canva's Design Systems team is building a world-class system for consistent experiences at scale.
-- Owns design system audit, component evolution, the 2026 roadmap, and advocacy.
-- End-to-end ownership of a complex craft surface.
-- Your design system work at Informed Decisions is a direct match.
-- Prestigious AU tech company.
-
-**Watch-outs**
-- Large enterprise (3000+ employees, ~$40B valuation) — no startup bonus.
-- No public-good, health or gov domain.
-- Not discovery-led.
-- Perm handicap applied.
-
-**Practicals**
-- 💰 Rate/salary: not listed. Glassdoor/Levels.fyi suggest $150–270k+ for design roles at Canva. ⚠️ rate unconfirmed on listing
-- 📅 Start: active. ⚠️ starts before ~9 Sep availability
-- 👤 Contacts: no specific hiring manager identified. Search Canva LinkedIn for Design Systems team leads before applying.
-- 🔗 Link: https://www.lifeatcanva.com/en/jobs/967b381d-187e-43f2-8f7e-466e94f038d7/lead-product-designer-design-systems/
-
-### ⏳ Senior Experience Designer — UniSuper
-**60/100** · Contract 12m · Posted ~Jun 2026
-
-**Why it fits**
-- Superannuation fund for university employees (~500k members), Digital & CX team.
-- Explicitly includes discovery — "lead discovery and design of exceptional digital experiences".
-- Cross-functional collaboration and end-to-end delivery across web and mobile.
-- Contract rather than perm — a positive, and no perm handicap.
-
-**Watch-outs**
-- Large institutional org — no startup bonus, some design-immaturity risk in large financials.
-- 60% in office (≈3 days/wk) — at the hard limit, just passes.
-- Financial services is not your preferred domain.
-
-**Practicals**
-- 💰 Rate/salary: not stated. ⚠️ rate unknown — 12-month contract, daily rate likely negotiable
-- 📅 Start: active. ⚠️ starts before ~9 Sep availability
-- 👤 Contacts: no named hiring manager confirmed. Role sits in Marketing & Growth / Digital & CX — search UniSuper LinkedIn for design leadership.
-- 🔗 Link: https://au.talent.com/view?id=609308522469400181 | https://au.indeed.com/viewjob?jk=4a2135bd6dc01a4c
-
-### ⏳ Staff Product Designer — Airwallex
-**52/100** _(perm −10 applied; enrich next run — full JD needed)_ · Perm · Melbourne hybrid · Posted Jun 2026
-
-**Why it fits**
-- Global fintech/payments platform, founded in Melbourne; 2000+ staff across 26 offices.
-- Staff level signals strategic IC ownership and cross-functional scope.
-- Melbourne hybrid.
-
-**Watch-outs**
-- Fintech/payments is not your preferred public-good domain.
-- No evidence of discovery, 0→1 or AI-native language in snippets.
-- Large enterprise — no startup bonus.
-- Perm penalty applied.
-- Multiple variants open (Staff PD, Staff PD UI/UX, Staff PD Design Systems) — unclear which matches the Indeed alert.
-
-**Practicals**
-- 💰 Rate/salary: not stated. ⚠️ rate unknown — Airwallex offers RSUs + bonuses per careers page
-- 📅 Start: active. ⚠️ starts before ~9 Sep availability
-- 👤 Contacts: no named hiring manager identified. Check the Airwallex careers page for the specific role variant before applying.
-- 🔗 Link: https://careers.airwallex.com/job/2e2b7832-9e48-45da-ab0e-030708f0a45b/staff-product-designer/ | https://careers.airwallex.com/
-
-### ⏳ Senior Product Designer — Mable
-**50/100** _(perm −10 applied; enrich next run for full honest-ad check)_ · Perm · Posted ~Jun 2026
-
-**Why it fits**
-- Australia's largest disability and aged care support marketplace (200+ staff, 3m+ support hours/year).
-- Health/public-good domain with direct resonance to your Babylon and Unmind background.
-- End-to-end design in cross-functional squads.
-- Includes user research, usability testing, workshopping, concept development and validation.
-- UX + UI in Figma; "lean and human-centred design approach" framing.
-- Broad design team (UI, content, product, service, strategic designers) suggests design maturity.
-
-**Watch-outs**
-- Perm penalty applied.
-- Salary not stated; Glassdoor median ~$119k is below the $140k threshold — keep and flag until confirmed or denied.
-- Ad lacks an explicit "what this is NOT" section — no honest-ad bonus.
-- 3–5 year minimum understates your seniority.
-- "Decision-makers and action" framing is a mild speed-culture signal.
-
-**Practicals**
-- 💰 Rate/salary: not stated. ⚠️ rate unknown — Glassdoor estimate ~$119k; if official salary is below $140k this becomes a hard-filter reject. Confirm on application.
-- 📅 Start: active. ⚠️ starts before ~9 Sep availability
-- 👤 Contacts: no named hiring manager confirmed. Check Mable LinkedIn for design leadership.
-- 🔗 Link: https://work180.com/en-au/for-women/employer/mable/job/396907/senior-product-designer | https://mable.recruitee.com/
-
-### ⏳ Head of Product Design — Heidi
-**N/A** — Head-of / leadership role; logged per criteria, not scored as an IC fit · Perm (full-time) · Sydney-based, remote listed · Posted ~Jun 2026
-
-**Why it fits**
-- Clinical AI health product — a calibration-set perfect domain match.
-- The Senior PD at Heidi is already logged as 🔥.
-- This parallel opening signals Heidi is scaling its design leadership.
-- The eventual Head is your future manager if you take the Senior PD role.
-- If you're open to design leadership rather than IC, arguably the strongest management role on the radar: clinical AI, honest design culture, remote-friendly.
-
-**Practicals**
-- 💰 Rate/salary: not stated. ⚠️ rate unknown
-- 📅 Start: active. ⚠️ starts before ~9 Sep availability
-- 👤 Contacts: no named contact confirmed. Search Heidi LinkedIn for current design or product leadership before applying.
-- 🔗 Link: https://www.heidihealth.com/careers _(specific posting URL not extracted — check directly)_
-
 ### ⏳ Senior Product Designer — Nintex
 **65/100** _(perm −10 applied; enrich next run)_ · Perm · Melbourne + AU remote · Posted unknown _(found 2026-08-30)_
 
@@ -420,27 +337,6 @@ Last digest sent after run: —
   - Senior Product Designers Dominic Bonnice and Patrick Campbell appear in org listings — peers, not hiring contacts. Do not cold-contact.
 - 🎯 Angle: ex-Onfido/Babylon/Culture Amp designer with scale-up pedigree and design system ownership (Informed Decisions) — both map to Atticus's craft-led, complex B2B product brief.
 - 🔗 Link: https://apply.workable.com/atticustech/j/8299AD3AD8
-
-### ⏳ Lead Product Designer — Atlassian
-**~50/100** _(estimated from snippets; full JD not retrieved — enrich next run)_ · Perm · Melbourne hybrid or AU remote · Posted ~Jun 2026
-
-**Why it fits**
-- Global B2B SaaS enterprise, 10,000+ staff, Team Anywhere distributed culture.
-- Lead level signals strategic IC scope and cross-functional design ownership.
-- Team Anywhere means Melbourne hybrid or AU remote, which fits.
-- B2B SaaS domain matches your Culture Amp and Informed Decisions work.
-
-**Watch-outs**
-- Large enterprise — no startup/scale-up bonus, enterprise penalty applied.
-- Full JD not retrieved; careers page returned empty (JS-rendered or auth-gated).
-- Product area unknown — without knowing which product (Jira/Confluence/Atlas), domain and discovery alignment can't be confirmed.
-- Score is a rough estimate; could go higher or lower once the full ad is read.
-
-**Practicals**
-- 💰 Rate/salary: not stated. ⚠️ rate unknown — Atlassian salaries typically strong; confirm on application
-- 📅 Start: active. ⚠️ starts before ~9 Sep availability
-- 👤 Contacts: no named hiring manager confirmed. Check Atlassian LinkedIn for the relevant design team.
-- 🔗 Link: https://www.atlassian.com/company/careers/details/15945
 
 ### ⏳ Design Lead – CRM Transformation — Bupa
 **55/100** · Contract (fixed-term to Jan 2027) · Melbourne · Found 2026-08-31
@@ -516,6 +412,72 @@ Last digest sent after run: —
 - 🎯 Angle: IC Lead at a growth-stage startup, staying in craft with salary progression — lead-without-management pitch
 - 🔗 Link: https://au.seek.com/Removify-jobs _(check SEEK directly for the specific Lead Product Designer listing)_
 
+### ⏳ Senior Product Designer (Flex Hiring) — SEEK Limited
+**55/100** _(perm −10 applied; scored from search snippets)_ · Perm · Cremorne, Melbourne (hybrid) · Found 2026-09-06
+
+**Why it fits**
+- "Shaping how AI transforms hiring experiences with trust and clarity" — AI-native scope.
+- "Define design vision for complex marketplace serving 8 APAC countries" — strategic end-to-end ownership.
+- "Shape SEEK's Design Systems" — design systems work aligns with Informed Decisions background.
+- Melbourne hybrid fits availability.
+
+**Watch-outs**
+- "Flex Hiring" tag = talent-pool program, not necessarily a confirmed live opening.
+- Large public company (ASX listed, 1000+ employees) — no startup/scale-up benefit.
+- Employment marketplace domain — not health, gov, or education preferred areas.
+- Perm handicap applied.
+
+**Practicals**
+- 💰 Rate/salary: ⚠️ rate unknown
+- 📅 Start: not stated — verify.
+- 👤 Contacts: no named contact found.
+- 🎯 Angle: ex-Culture Amp AI designer who shaped AI product patterns at scale — SEEK's AI hiring transformation is a direct parallel.
+- 🔗 Link: https://au.seek.com/job/94354510
+
+### ⏳ Senior Product Designer — Squiz
+**60/100** _(perm −10 applied; scored from search snippets — enrich next run)_ · Perm · Melbourne hybrid · Found 2026-09-06
+
+**Why it fits**
+- Role at "intersection of AI innovation, rapid concept generation, and systemic visual craft" — AI-native framing.
+- "Shaping, visualizing, and validating high-level roadmap initiatives" — explicit discovery and strategic scope.
+- B2B SaaS Digital Experience Platform — product craft focus.
+- Scale-up size (~300 employees) — visible design impact possible.
+- Melbourne hybrid fits.
+
+**Watch-outs**
+- Enterprise DXP/CMS platform context — government and large-org clients may mean slower, compliance-heavy cycles.
+- Not Daniel's usual preferred domain (health, mental health, gov public-good, HR).
+- No salary stated.
+- Full JD not retrieved — scored from search snippets only.
+
+**Practicals**
+- 💰 Rate/salary: ⚠️ rate unknown
+- 📅 Start: not stated — verify.
+- 👤 Contacts: no named contact found.
+- 🎯 Angle: AI portfolio from Culture Amp + design systems from Informed Decisions map directly to Squiz's AI innovation + systemic craft brief.
+- 🔗 Link: https://apply.workable.com/squiz/j/992B185EFF
+
+### ⏳ Senior Product Designer — UpGuard
+**55/100** _(perm −10 applied; scored from search snippets — enrich next run)_ · Perm · AU remote · Found 2026-09-06
+
+**Why it fits**
+- "Lead design of end-to-end product experiences, from early concept through to polished execution" — full ownership.
+- "Align on discovery efforts, contribute to research plans, run interviews, translate insights into opportunities" — discovery explicit.
+- Fully remote AU — maximum flexibility.
+- B2B SaaS scale-up (cybersecurity risk management, ~200 employees).
+
+**Watch-outs**
+- Cybersecurity domain — not Daniel's preferred (health, gov, education, HR, mental health).
+- Growth squad focus — more acquisition/activation/retention design than 0→1 product work.
+- No salary stated.
+
+**Practicals**
+- 💰 Rate/salary: ⚠️ rate unknown
+- 📅 Start: not stated — verify.
+- 👤 Contacts: no named contact found.
+- 🎯 Angle: end-to-end discovery-through-delivery track record (Babylon, Unmind, Onfido) with AU B2B platform context — maps to UpGuard's discovery-explicit brief.
+- 🔗 Link: https://jobs.lever.co/upguard/3c788973-0109-4dff-99a7-8b1f48e6b706
+
 ---
 
 ## 💀 Expired but relevant — outreach targets
@@ -523,7 +485,41 @@ Last digest sent after run: —
 **Why it was a fit** — bullets
 **Who to contact** — 👤 name/title/URL · 🎯 angle -->
 
-_None yet._
+### 💀 Lead Product Designer (Design Systems) — Canva — closed ~Sep 2026
+- Design systems Lead; 60/100 (perm −10); design system audit, component evolution, roadmap.
+- Role 12+ weeks old — assumed filled.
+- 👤 No named hiring manager. Search Canva LinkedIn for Design Systems team leads.
+- 🎯 Angle: design system ownership at Informed Decisions + scale-up B2B craft from Culture Amp.
+
+### 💀 Senior Experience Designer — UniSuper — closed ~Sep 2026
+- 60/100 contract 12m; superannuation fund, discovery-led CX design, 3 days/wk office.
+- Role 12+ weeks old — assumed filled.
+- 👤 No named contact. Search UniSuper LinkedIn for Digital & CX team.
+- 🎯 Angle: institutional digital design experience from Culture Amp B2B; health/super domain adjacent.
+
+### 💀 Staff Product Designer — Airwallex — closed ~Sep 2026
+- 52/100 (perm −10); global fintech/payments, Melbourne hybrid, staff-level IC scope.
+- Role 12+ weeks old — assumed filled.
+- 👤 No named hiring manager. Check Airwallex careers for any current openings.
+- 🎯 Angle: staff-level IC ownership and design system track record from Informed Decisions.
+
+### 💀 Senior Product Designer — Mable — closed ~Sep 2026
+- 50/100 (perm −10); disability/aged care marketplace, health domain, end-to-end squads.
+- Role 12+ weeks old — assumed filled.
+- 👤 No named contact. Check Mable LinkedIn for design leadership.
+- 🎯 Angle: ex-Babylon/Unmind designer — Mable's health/social-care domain is a strong fit for cold outreach.
+
+### 💀 Head of Product Design — Heidi — closed ~Sep 2026
+- N/A scored (leadership, not IC); clinical AI health, parallel to the 🔥 Senior PD role.
+- Logged to track who becomes the future design manager at Heidi.
+- 👤 Identify current Heidi design leadership on LinkedIn before applying to the Senior PD role.
+- 🎯 Angle: knowing the HoD hire informs outreach framing for the Senior PD.
+
+### 💀 Lead Product Designer — Atlassian — closed ~Sep 2026
+- ~50/100 estimated (perm −10, enterprise −5); B2B SaaS enterprise, Team Anywhere remote.
+- Full JD never retrieved; role 12+ weeks old — assumed filled.
+- 👤 No named hiring manager. Search Atlassian LinkedIn for design team leads per product area (Jira/Confluence/Atlas).
+- 🎯 Angle: B2B SaaS IC design experience from Culture Amp and Informed Decisions.
 
 ---
 
@@ -552,6 +548,14 @@ _None yet._
 
 ## 📊 Market notes
 <!-- Newest first. A dated **YYYY-MM-DD (run N)** line, then one bullet per observation. -->
+
+**2026-09-06 (run 7)**
+- Squiz (enterprise DXP, Melbourne) advertising Senior PD with explicit AI innovation and strategic discovery scope.
+- UpGuard (cybersecurity SaaS, AU remote) has Senior PD with explicit discovery language — strongest AU-remote option this run.
+- SEEK Limited "Flex Hiring" Senior PD signals a talent-pool program — verify if it converts to a live hire.
+- Eucalyptus design roles have shifted to London/UK — no AU positions visible this run.
+- Dovetail and Deputy unchanged from run 3 — Sydney-only, no AU-remote variant found.
+- Jun 2026 ⏳ roles (Canva, UniSuper, Airwallex, Mable, Heidi HoD, Atlassian) moved to outreach targets — 12+ weeks old.
 
 **2026-09-02 (run 6)**
 - Lyrebird Health (health AI, Melbourne) has a Lead PD role in the inbox — homerun listing 404'd; verify via lyrebird.ai/careers or LinkedIn (job ID 4451549429).
