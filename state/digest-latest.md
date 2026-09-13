@@ -1,24 +1,20 @@
-# Job Scout — 2026-09-06
+# Job Scout — 2026-09-13
 
 ## 🔥 New strong fits
-No new 🔥 roles this run.
+_No new 🔥 roles this run._
 
-## ⏳ Also new — 3 maybes
-- **Senior Product Designer (Flex Hiring) — SEEK Limited** · 55/100 · rate unknown
-  - Why: AI hiring transformation scope + design systems; Melbourne hybrid
-  - ⚠️ "Flex Hiring" = talent pool, may not be a live opening
-  - https://au.seek.com/job/94354510
-- **Senior Product Designer — Squiz** · 60/100 · rate unknown
-  - Why: explicit AI innovation + strategic discovery scope; Melbourne hybrid; scale-up
-  - https://apply.workable.com/squiz/j/992B185EFF
-- **Senior Product Designer — UpGuard** · 55/100 · rate unknown
-  - Why: discovery-explicit ("research plans, run interviews"); fully AU remote; B2B SaaS
-  - https://jobs.lever.co/upguard/3c788973-0109-4dff-99a7-8b1f48e6b706
-
-## 🗄️ Housekeeping
-- Jun 2026 ⏳ roles (Canva, UniSuper, Airwallex, Mable, Heidi HoD, Atlassian) moved to outreach targets — 12+ weeks old.
+## ⏳ Also new (3 maybes)
+- **AI Design Lead — Medibank** · 70/100 · rate unknown
+  - Why: 0→1 AI framework definition for Medibank's new Enterprise AI Hub; AI-native + health = direct match for Culture Amp + Babylon background
+  - ⚠️ Perm assumed — could be 🔥 ~80 if contract confirmed
+  - https://jobs.medibank.com.au/job/DOCKLANDS-AI-Design-Lead-VIC-3008/1367075066/
+- **Senior Product Designer — AustralianSuper** · 53/100 · rate unknown
+  - Why: 12-month contract, end-to-end member experience lead, Melbourne hybrid
+  - Domain gap: super/financial services, not health or AI
+  - https://au.seek.com/job/94586133
+- **Product Design Chapter Lead — Medibank** · management role (not scored)
+  - Why: health + design systems, no mandated office days
+  - ⚠️ Likely people management — verify IC vs manager scope before pursuing
 
 ## 📊 Market note
-- No 🔥 roles this run; market quiet for senior product design in Melbourne.
-- UpGuard (AU remote, cybersecurity SaaS) has the strongest discovery-explicit framing of the three new maybes.
-- Eucalyptus design hiring has shifted to London/UK — AU positions no longer visible.
+- Medibank has two design roles open simultaneously — health sector is actively scaling design orgs.

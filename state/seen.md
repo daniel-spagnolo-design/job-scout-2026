@@ -22,3 +22,6 @@ Format: `Company — Title — posted-date — tier`
 - SEEK Limited — Senior Product Designer (Flex Hiring) — 2026-09-06 — ⏳
 - Squiz — Senior Product Designer — 2026-09-06 — ⏳
 - UpGuard — Senior Product Designer — 2026-09-06 — ⏳
+- Medibank — AI Design Lead — 2026-09-13 — ⏳
+- AustralianSuper — Senior Product Designer — 2026-09-11 — ⏳
+- Medibank — Product Design Chapter Lead — 2026-09-13 — ⏳

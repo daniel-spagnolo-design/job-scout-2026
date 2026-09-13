@@ -15,6 +15,24 @@ Running master file. The weekly scan appends here; existing entries are never re
 - ⚠️ Issues: one per bullet
 Omit empty sub-sections. -->
 
+### 2026-09-13 · run 8
+- 📥 Alerts read: 18
+- ✅ New: 🔥 0 · ⏳ 3
+- **Added**
+  - ⏳ **Medibank** — AI Design Lead · 70/100 · Docklands Melbourne · perm assumed · AI-native health, 0→1 Enterprise AI Hub framework
+  - ⏳ **AustralianSuper** — Senior Product Designer · 53/100 · Melbourne hybrid · contract 12m · end-to-end member experience lead
+  - ⏳ **Medibank** — Product Design Chapter Lead · management note · Docklands Melbourne · health + design systems coaching
+- **Hard-filtered**
+  - **Victorian Government** — Senior Designer · perm, salary range starts $116k below $140k threshold
+  - **REA Group** — Product Designer · no Senior qualifier in title, level unclear
+- **Discarded**
+  - **carsales** — Senior Product Designer · automotive domain, large enterprise, insufficient signals
+  - **AIA Australia** — Senior UX Designer · large enterprise insurance, insufficient signals
+  - **Bupa** — App Designer · no Senior qualifier, low signals (~38/100)
+  - **NexGen Cloud** — Product Designer · below senior (consistent with run 6)
+  - **EatClub** — Senior PD · same conclusion as run 4 (~42/100)
+- 🎯 Targets checked: Bupa (CRM role logged run 4; App Designer discarded), New Forests (no PD roles), Lorikeet (engineering only — no PD roles), EatClub (discarded run 4, same this run)
+
 ### 2026-09-06 · run 7
 - 📥 Alerts read: 11
 - ✅ New: 🔥 0 · ⏳ 3
@@ -478,6 +496,74 @@ Last digest sent after run: —
 - 🎯 Angle: end-to-end discovery-through-delivery track record (Babylon, Unmind, Onfido) with AU B2B platform context — maps to UpGuard's discovery-explicit brief.
 - 🔗 Link: https://jobs.lever.co/upguard/3c788973-0109-4dff-99a7-8b1f48e6b706
 
+### ⏳ AI Design Lead — Medibank
+**70/100** _(perm assumed −10 applied; could be ~80/🔥 if contract confirmed)_ · Perm (assumed) · Docklands, Melbourne · Found 2026-09-13
+
+**Why it fits**
+- AI-native role: define and evolve Medibank's Human-AI Experience framework, standards and principles.
+- Newly established Enterprise AI Hub — genuine 0→1 framework definition work.
+- Lead AI design across customer and employee journeys: trust, usability, transparency, human oversight.
+- Health insurance domain maps to Daniel's Babylon Health and Unmind background.
+- Culture Amp AI Coach is a direct proof point for enterprise AI design leadership at this level.
+- Cross-functional brief (Product, Design, Research, Technology, Risk, Legal) suits Daniel's broad IC style.
+
+**Watch-outs**
+- Perm assumed; contract type not stated on job page — verify.
+- "Not an IC execution role" — strategic and coaching scope; check this aligns with preferred depth of craft work.
+- Large enterprise (Medibank, ASX-listed, ~7,000 AU employees) — no startup/scale-up bonus.
+- No salary stated.
+
+**Practicals**
+- 💰 Rate/salary: ⚠️ rate unknown
+- 📅 Start: not stated — verify.
+- 👤 Contacts: no named hiring manager found. General: careers@medibank.com.au · (03) 8622 5666
+- 🎯 Angle: ex-Culture Amp AI designer who defined AI interaction patterns at enterprise scale (AI Coach, Comment Summaries, platform-wide AI design patterns) + health background (Babylon Health NHS) — the exact intersection Medibank's new Enterprise AI Hub needs.
+- 🔗 Link: https://jobs.medibank.com.au/job/DOCKLANDS-AI-Design-Lead-VIC-3008/1367075066/
+
+### ⏳ Senior Product Designer — AustralianSuper
+**53/100** _(contract — no perm handicap; scored from search snippets)_ · Contract (12-month max term) · Melbourne hybrid · Posted 2026-09-11
+
+**Why it fits**
+- 12-month contract — no perm penalty.
+- "Lead the design of complex, end-to-end member experiences" — senior IC ownership.
+- Australia's largest industry super fund; major digital transformation underway.
+- Melbourne hybrid fits availability.
+
+**Watch-outs**
+- Superannuation domain — not Daniel's primary fit (vs health, AI, gov, education).
+- Large organisation — no startup/scale-up bonus.
+- No discovery, AI, or craft signals visible in available snippets — scored conservatively.
+- Full JD not retrieved — score is provisional.
+
+**Practicals**
+- 💰 Rate/salary: ⚠️ rate unknown
+- 📅 Start: role posted Sep 11 — likely near-term start. Verify against 9 Sep availability.
+- 👤 Contacts: no named contact found.
+- 🎯 Angle: ex-Culture Amp B2B platform designer with end-to-end IC ownership and design system experience (Informed Decisions) — maps to AustralianSuper's complex member-experience brief.
+- 🔗 Link: https://au.seek.com/job/94586133
+
+### ⏳ Product Design Chapter Lead — Medibank
+**Not scored (management/leadership role — log per criteria)** · Perm (assumed) · Docklands, Melbourne · Found 2026-09-13
+
+**Why it fits**
+- Health domain — digital health experiences for Australians across agile squads.
+- Setting design standards, accessibility, and design-system practices: maps to Informed Decisions design system work.
+- "No mandated office days" — fully flexible working.
+- Coaching + standards-setting scope suits Staff/Principal IC in some org models.
+
+**Watch-outs**
+- "Chapter Lead" in a large enterprise agile model typically means formal people manager for the chapter.
+- Per criteria: log as ⏳ management role with a note; do not score as a fit.
+- If confirmed as people management, Daniel's IC preference makes this a poor fit.
+- Perm assumed — no salary stated.
+
+**Practicals**
+- 💰 Rate/salary: ⚠️ rate unknown
+- 📅 Start: not stated — verify.
+- 👤 Contacts: no named hiring manager found. Search Medibank LinkedIn for Head of Product Design or Design Director to identify the hiring manager.
+- 🎯 Angle: if IC-lead scope is confirmed, ex-Culture Amp/Babylon/Informed Decisions designer with design system + AI + health track record is a direct match for a standards-setting chapter lead brief.
+- 🔗 Link: https://freehire.me/jobs/product-design-chapter-lead-medibank-uuqkhwmq _(verify on careers.medibank.com.au directly)_
+
 ---
 
 ## 💀 Expired but relevant — outreach targets
@@ -548,6 +634,13 @@ Last digest sent after run: —
 
 ## 📊 Market notes
 <!-- Newest first. A dated **YYYY-MM-DD (run N)** line, then one bullet per observation. -->
+
+**2026-09-13 (run 8)**
+- Medibank has two design roles open simultaneously (AI Design Lead + Product Design Chapter Lead) — significant design org investment in digital health.
+- AustralianSuper's 12-month contract Senior PD role is the first contract super-fund role surfaced in this search; financial services contract work worth monitoring.
+- SEEK alerts continue to surface many non-digital-product roles (fashion, automotive, industrial) — filter noise unchanged from prior runs.
+- Bupa App Designer didn't score above ⏳ threshold this run (no Senior qualifier, limited detail) — check careers.bupa.com.au next run if a Senior PD role appears.
+- Medibank AI Design Lead appeared in both SEEK and LinkedIn alerts — actively promoted, likely recent opening.
 
 **2026-09-06 (run 7)**
 - Squiz (enterprise DXP, Melbourne) advertising Senior PD with explicit AI innovation and strategic discovery scope.
