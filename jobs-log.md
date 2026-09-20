@@ -15,6 +15,18 @@ Running master file. The weekly scan appends here; existing entries are never re
 - ⚠️ Issues: one per bullet
 Omit empty sub-sections. -->
 
+### 2026-09-20 · run 9
+- 📥 Alerts read: 16
+- ✅ New: 🔥 0 · ⏳ 1
+- **Added**
+  - ⏳ **Atlassian** — Senior Product Designer – Design Systems · 50/100 · AU remote · perm · craft + B2B SaaS, no discovery signals
+- **Discarded**
+  - **Timescapes** — Senior Product Designer · unknown company, no domain or scope info
+  - **SafetyCulture** — Product Designer · same Sydney-hybrid constraint as run 5; no Senior qualifier confirmed
+  - **Lookahead** — Product Designer · no Senior qualifier in title
+  - **SEEK alert noise** — graphic, fashion, apparel, retail roles: wrong discipline
+- 🎯 Targets checked: Sapia.ai (no design role — consistent with run 5), Harrison.ai (no design role — consistent with run 5), SafetyCulture (PD role confirmed but appears Sydney-based), Blinq (same two roles from run 5 — still active)
+
 ### 2026-09-13 · run 8
 - 📥 Alerts read: 18
 - ✅ New: 🔥 0 · ⏳ 3
@@ -564,6 +576,28 @@ Last digest sent after run: —
 - 🎯 Angle: if IC-lead scope is confirmed, ex-Culture Amp/Babylon/Informed Decisions designer with design system + AI + health track record is a direct match for a standards-setting chapter lead brief.
 - 🔗 Link: https://freehire.me/jobs/product-design-chapter-lead-medibank-uuqkhwmq _(verify on careers.medibank.com.au directly)_
 
+### ⏳ Senior Product Designer – Design Systems — Atlassian
+**50/100** _(perm −10 applied; scored from email snippet only — enrich next run)_ · Perm · AU remote · Found 2026-09-20
+
+**Why it fits**
+- Design systems scope aligns with Informed Decisions first-DS ownership (AU gov/retail data platform).
+- B2B SaaS suite (Jira, Confluence, Loom) — Daniel's preferred platform domain.
+- AU-timezone remote — no Melbourne-commute constraint.
+- Atlassian's craft reputation signals a high design quality bar.
+
+**Watch-outs**
+- Perm handicap applied; no contract variant apparent.
+- Large enterprise (~15,000 employees) — no startup/scale-up bonus.
+- No discovery, 0→1, or AI-native signals in available description.
+- Full JD not retrieved — scored at floor of ⏳ range; enrich next run before acting.
+
+**Practicals**
+- 💰 Rate/salary: ⚠️ rate unknown
+- 📅 Start: not stated — verify.
+- 👤 Contacts: no named contact found
+- 🎯 Angle: design system ownership from Informed Decisions (built first DS for AU gov platform) + B2B platform craft from Culture Amp — direct evidence for Atlassian's DS scope.
+- 🔗 Link: check atlassian.com/company/careers or search "Senior Product Designer Design Systems Atlassian" on LinkedIn _(matched via Indeed alert 2026-09-20)_
+
 ---
 
 ## 💀 Expired but relevant — outreach targets
@@ -634,6 +668,11 @@ Last digest sent after run: —
 
 ## 📊 Market notes
 <!-- Newest first. A dated **YYYY-MM-DD (run N)** line, then one bullet per observation. -->
+
+**2026-09-20 (run 9)**
+- Atlassian re-opened design hiring: new Senior Product Designer – Design Systems posted after the Lead PD role expired Sep 2026.
+- Sapia.ai and Harrison.ai continue to show no open design roles (engineering and customer success hiring only).
+- SEEK alert noise ratio remains high — majority of "product designer" alerts are graphic/fashion/apparel roles, not digital product.
 
 **2026-09-13 (run 8)**
 - Medibank has two design roles open simultaneously (AI Design Lead + Product Design Chapter Lead) — significant design org investment in digital health.
