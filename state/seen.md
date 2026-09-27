@@ -26,3 +26,4 @@ Format: `Company — Title — posted-date — tier`
 - AustralianSuper — Senior Product Designer — 2026-09-11 — ⏳
 - Medibank — Product Design Chapter Lead — 2026-09-13 — ⏳
 - Atlassian — Senior Product Designer – Design Systems — 2026-09-20 — ⏳
+- me&u — AI-First Product Designer — 2026-09-27 — ⏳

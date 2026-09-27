@@ -15,6 +15,24 @@ Running master file. The weekly scan appends here; existing entries are never re
 - ⚠️ Issues: one per bullet
 Omit empty sub-sections. -->
 
+### 2026-09-27 · run 10
+- 📥 Alerts read: 17
+- ✅ New: 🔥 0 · ⏳ 1
+- **Added**
+  - ⏳ **me&u** — AI-First Product Designer · 65/100 · Melbourne · EOI · AI-native hospitality tech
+- **Moved to 💀**
+  - 🔥 **Heidi Health** — Senior Product Designer (Feb 2026) · confirmed not listed on careers page Sep 2026; 7+ months old
+- **Hard-filtered**
+  - **Amber** — Mid-Level UX/UI Designer · below senior
+  - **Linktree** — Staff Product Designer, Growth · US-located (SF/LA/NY); fails location hard filter
+  - **Flybuys** — UX Designer · no explicit Senior qualifier; loyalty retail perm
+  - **Officeworks** — UX/UI Designer · retail; no explicit Senior qualifier
+  - **BJAK** — Product Designer · Malaysian company; AU timezone unverified
+- **Discarded**
+  - **AustralianSuper** — Lead Product Designer · title differs from logged Senior PD; needs fetch verification; deferred to next run
+  - **SEEK alert noise** — graphic, fashion, apparel, retail roles: wrong discipline
+- 🎯 Targets checked: Amber (mid-level only; Staff/Principal already logged), Heidi Health (no product designer roles open — Staff PD closed), Cadmus (same Senior PD already logged), Canva (no new distinct role found)
+
 ### 2026-09-20 · run 9
 - 📥 Alerts read: 16
 - ✅ New: 🔥 0 · ⏳ 1
@@ -226,31 +244,6 @@ Last digest sent after run: —
 - 👤 Contacts: no named design leadership confirmed.
 - 🎯 Angle: ex-Culture Amp AI designer with end-to-end IC ownership and design system track record; Blinq's staff-level scope maps to your cross-functional seniority at Informed Decisions.
 - 🔗 Link: https://jobs.lever.co/blinq/8698989f-1f22-4b79-907d-3cc15eab783d | https://blinq.me/careers
-
-### 🔥 Senior Product Designer — Heidi Health
-**92/100** _(perm −10 applied)_ · Perm · Melbourne/Sydney · Posted 2026-02-17 _(found in setup validation run)_
-
-**Why it fits**
-- Bullseye against your calibration set — this *is* your "would apply" Heidi example.
-- AI-native clinical health product — maps directly to your Babylon/Unmind and Culture Amp AI background.
-- End-to-end ownership: design, prototype and ship.
-- Explicitly explores "what AI clinical software should look and feel like".
-- Obsessive craft bar; design system framed as "a floor not a ceiling".
-- Melbourne/Sydney based.
-- Honest-ad bonus: has the "if you answer no, this isn't for you" section.
-- Target-company match.
-
-**Watch-outs**
-- Research is deliberately de-emphasised — not penalised, per your calibration.
-
-**Practicals**
-- 💰 Rate/salary: not stated; benefits + "serious equity" listed. ⚠️ rate unknown
-- 📅 Start: open now. ⚠️ starts before ~9 Sep availability — worth an early conversation regardless
-- 👤 Contacts: no named contact confirmed.
-  - A **Head of Product Design (Melbourne)** role is open concurrently — design leadership is being built, so the eventual HoD is your future manager.
-  - Find current Heidi designers via LinkedIn before applying.
-- 🎯 Angle: ex-Culture Amp/Babylon/Unmind designer who's shipped AI-native and health products; reference your AI Coach work.
-- 🔗 Link: https://www.heidihealth.com/careers/d4fca974-4af4-4dba-8957-1296ab295613
 
 ### 🔥 Staff/Principal Product Designer — Amber Electric
 **75/100** _(perm −10 applied)_ · Perm · Melbourne · Posted ~Jun 2026
@@ -598,12 +591,45 @@ Last digest sent after run: —
 - 🎯 Angle: design system ownership from Informed Decisions (built first DS for AU gov platform) + B2B platform craft from Culture Amp — direct evidence for Atlassian's DS scope.
 - 🔗 Link: check atlassian.com/company/careers or search "Senior Product Designer Design Systems Atlassian" on LinkedIn _(matched via Indeed alert 2026-09-20)_
 
+### ⏳ AI-First Product Designer — me&u
+**65/100** _(EOI — seniority unconfirmed; scored from search snippet only)_ · Contract/Perm TBC · Melbourne · Found 2026-09-27
+
+**Why it fits**
+- AI-first product team designing new human-AI interaction patterns for hospitality.
+- "Figuring out what it means to be AI-first in a real business" — genuine discovery and exploration scope.
+- Designers work end-to-end, from agent orchestration to prototyping — hands-on IC ownership.
+- Melbourne office with weekly team gatherings — Melbourne hybrid fits.
+- Scale-up stage (~100–300 employees, formerly Mr Yum) — visible impact opportunity.
+- Culture Amp AI Coach is a direct proof point for AI-native product design at scale.
+
+**Watch-outs**
+- EOI (expressions of interest) — not a confirmed open role; may never convert to hire.
+- No Senior or Staff qualifier in title — verify seniority level before applying.
+- Hospitality tech (restaurant ordering) — not a preferred public-good domain.
+- "In the codebase with agent orchestration" language suggests engineering-adjacent execution risk.
+- Rate and contract type unknown.
+- Full JD not retrieved — scored from search snippet only.
+
+**Practicals**
+- 💰 Rate/salary: ⚠️ rate unknown
+- 📅 Start: not stated
+- 👤 Contacts: no named contact found
+- 🎯 Angle: Culture Amp AI Coach (AI-native at enterprise scale) maps directly to me&u's AI-first product team brief
+- 🔗 Link: https://freehire.me/jobs/expressions-of-interest-ai-first-product-designer-me-u-u45tf4kc _(may be archived — search LinkedIn for "me&u Product Designer")_
+
 ---
 
 ## 💀 Expired but relevant — outreach targets
 <!-- ### 💀 [Role] — [Company] — closed YYYY-MM-DD
 **Why it was a fit** — bullets
 **Who to contact** — 👤 name/title/URL · 🎯 angle -->
+
+### 💀 Senior Product Designer — Heidi Health — closed ~Sep 2026
+- Was 92/100 (perm −10 applied); AI-native clinical health; textbook calibration example.
+- Posted Feb 2026; confirmed not on Heidi careers page Sep 2026 — role filled.
+- 👤 No named contact confirmed. Find current Heidi Health designers on LinkedIn before reaching out.
+- 🎯 Angle: ex-Culture Amp/Babylon/Unmind AI + health designer — Heidi's strongest domain overlap; worth warm outreach even without an open role.
+- 🔗 Prior link (now likely dead): https://www.heidihealth.com/careers/d4fca974-4af4-4dba-8957-1296ab295613
 
 ### 💀 Lead Product Designer (Design Systems) — Canva — closed ~Sep 2026
 - Design systems Lead; 60/100 (perm −10); design system audit, component evolution, roadmap.
@@ -668,6 +694,12 @@ Last digest sent after run: —
 
 ## 📊 Market notes
 <!-- Newest first. A dated **YYYY-MM-DD (run N)** line, then one bullet per observation. -->
+
+**2026-09-27 (run 10)**
+- me&u (formerly Mr Yum) is building an AI-first product design team — a rare hospitality-tech AI-native signal.
+- Heidi Health Senior PD (🔥, 92/100) confirmed closed after 7+ months — role filled; Heidi now has no product designer openings.
+- Linktree Staff PD roles appear Melbourne-based on LinkedIn but careers pages show US locations (SF/LA/NY) — verify remote availability before pursuing.
+- SEEK alert noise ratio remains consistently high; majority of "product designer" alerts are graphic, fashion, and apparel roles.
 
 **2026-09-20 (run 9)**
 - Atlassian re-opened design hiring: new Senior Product Designer – Design Systems posted after the Lead PD role expired Sep 2026.
