@@ -19,3 +19,11 @@ Format: `Company — Title — posted-date — tier`
 - Blinq — Senior Product Designer — 2026-09-02 — ⏳
 - Lyrebird Health — Lead Product Designer — 2026-08-25 — ⏳
 - Removify — Lead Product Designer — 2026-09-01 — ⏳
+- SEEK Limited — Senior Product Designer (Flex Hiring) — 2026-09-06 — ⏳
+- Squiz — Senior Product Designer — 2026-09-06 — ⏳
+- UpGuard — Senior Product Designer — 2026-09-06 — ⏳
+- Medibank — AI Design Lead — 2026-09-13 — ⏳
+- AustralianSuper — Senior Product Designer — 2026-09-11 — ⏳
+- Medibank — Product Design Chapter Lead — 2026-09-13 — ⏳
+- Atlassian — Senior Product Designer – Design Systems — 2026-09-20 — ⏳
+- me&u — AI-First Product Designer — 2026-09-27 — ⏳

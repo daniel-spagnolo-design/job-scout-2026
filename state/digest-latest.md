@@ -1,20 +1,17 @@
-# Job Scout — 2026-09-02
+# Job Scout — 2026-09-27
 
 ## 🔥 New strong fits
-- None this run.
+_No new 🔥 roles this run._
 
-## ⏳ Also new — 2 maybes
-- **Lead Product Designer — Lyrebird Health** · 70/100 · rate unknown
-  - Why: health AI startup (clinical documentation automation) — direct match for Babylon/Unmind + Culture Amp AI Coach background
-  - Watch: homerun listing 404'd — verify role still active at lyrebird.ai/careers or LinkedIn job ID 4451549429
-  - If contract/freelance confirmed: → ~80/100 🔥
-  - [https://lyrebird.homerun.co/product-designer]
-- **Lead Product Designer — Removify** · 52/100 · $160k–190k + super (perm)
-  - Why: IC Lead with no direct reports, real design ownership, competitive salary stated upfront, Melbourne hybrid
-  - Watch: online reputation management domain — not preferred public-good area; no AI/discovery signals
-  - [https://au.seek.com/Removify-jobs]
+## ⏳ Also new
+- **AI-First Product Designer — me&u** · 65/100 · rate unknown
+  - Why: AI-native product team building AI-first hospitality experiences; Melbourne office; genuine discovery/exploration scope
+  - ⚠️ EOI only — not a confirmed open role; verify seniority before applying
+  - https://freehire.me/jobs/expressions-of-interest-ai-first-product-designer-me-u-u45tf4kc
+
+## 📋 Moved to expired
+- **Heidi Health — Senior Product Designer** (was 🔥 92/100) — confirmed not listed on careers page; role filled after 7+ months
 
 ## 📊 Market note
-- Gmail now working — 6 alerts ingested; SEEK alerts remain ~80% non-product-design noise.
-- Jun 2026 ⏳ roles (Canva, UniSuper, Airwallex, Mable, Atlassian) are 11+ weeks old — likely expired; verify next run.
-- ProcurePro (construction SaaS, AU remote, Senior PD) in inbox but insufficient JD detail — check next run.
+- Heidi Health has no product designer roles open — worth cold outreach to whoever filled the Senior PD role.
+- Linktree Staff PD roles look Melbourne on LinkedIn but are US-based on the careers page — verify before pursuing.
