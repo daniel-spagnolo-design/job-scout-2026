@@ -1,17 +1,19 @@
-# Job Scout — 2026-09-27
+# Job Scout — 2026-10-04
 
 ## 🔥 New strong fits
-_No new 🔥 roles this run._
+None this run.
 
 ## ⏳ Also new
-- **AI-First Product Designer — me&u** · 65/100 · rate unknown
-  - Why: AI-native product team building AI-first hospitality experiences; Melbourne office; genuine discovery/exploration scope
-  - ⚠️ EOI only — not a confirmed open role; verify seniority before applying
-  - https://freehire.me/jobs/expressions-of-interest-ai-first-product-designer-me-u-u45tf4kc
+- **Senior UX/UI Designer — Rauland Australia** · 55/100 · $125K–$155K perm (lower end ⚠️ below $140K)
+  - Why: healthcare tech (hospital/aged-care), full discovery lifecycle, Babylon/NHS domain overlap
+  - https://www.dreamworkhq.com/job/91ff88bd-4bf9-47b7-b0d4-34e77c129d90
 
-## 📋 Moved to expired
-- **Heidi Health — Senior Product Designer** (was 🔥 92/100) — confirmed not listed on careers page; role filled after 7+ months
+- **Principal Product Designer (Design Systems) — Mable** · Principal level · perm · Melbourne hybrid
+  - Why: healthtech, design system + AI tooling (Claude) integration, WCAG 2.2 AA, direct DS experience match
+  - ⚠️ Principal level (log in maybe per criteria); 5+ weeks old — check if still open
+  - https://jobs.lever.co/mable/e1aed421-83a9-4a02-8162-e9e6e2d3b4e9
 
 ## 📊 Market note
-- Heidi Health has no product designer roles open — worth cold outreach to whoever filled the Senior PD role.
-- Linktree Staff PD roles look Melbourne on LinkedIn but are US-based on the careers page — verify before pursuing.
+- Rauland first appearance — health sector UX hiring extends beyond digital-health startups.
+- Mable integrating Claude into their design system workflow — a concrete AI-tooling signal in healthtech.
+- Up Bank / Ferocia: only open design role is a Product Design Manager (not IC) again.

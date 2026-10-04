@@ -27,3 +27,5 @@ Format: `Company — Title — posted-date — tier`
 - Medibank — Product Design Chapter Lead — 2026-09-13 — ⏳
 - Atlassian — Senior Product Designer – Design Systems — 2026-09-20 — ⏳
 - me&u — AI-First Product Designer — 2026-09-27 — ⏳
+- Rauland Australia — Senior UX/UI Designer — 2026-09-29 — ⏳
+- Mable — Principal Product Designer (Design Systems) — 2026-08-31 — ⏳

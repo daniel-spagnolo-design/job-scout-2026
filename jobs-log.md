@@ -15,6 +15,19 @@ Running master file. The weekly scan appends here; existing entries are never re
 - ⚠️ Issues: one per bullet
 Omit empty sub-sections. -->
 
+### 2026-10-04 · run 11
+- 📥 Alerts read: 13
+- ✅ New: 🔥 0 · ⏳ 2
+- **Added**
+  - ⏳ **Rauland Australia** — Senior UX/UI Designer · 55/100 · North Melbourne · perm · healthcare tech, full design lifecycle, health domain overlap
+  - ⏳ **Mable** — Principal Product Designer (Design Systems) · Principal level · Melbourne hybrid · perm · design systems + AI tooling (Claude), healthtech
+- **Hard-filtered**
+  - **Ferocia (Up Bank)** — Product Design Manager · people management role, not IC
+- **Discarded**
+  - **Equiem** — Senior Product Designer · no domain fit, no AI/discovery/0→1 signals, possible part-time arrangement
+  - **SEEK alert noise** — graphic, fashion, apparel, retail roles: wrong discipline
+- 🎯 Targets checked: Atlassian (no new roles), Airwallex (no new AU roles), Mable (new Principal PD role → logged), Up Bank/Ferocia (Product Design Manager → not IC)
+
 ### 2026-09-27 · run 10
 - 📥 Alerts read: 17
 - ✅ New: 🔥 0 · ⏳ 1
@@ -619,6 +632,57 @@ Last digest sent after run: —
 
 ---
 
+### ⏳ Senior UX/UI Designer — Rauland Australia
+**55/100** · Perm · North Melbourne · Posted ~2026-09-29
+
+**Why it fits**
+- Rauland builds clinical communications and nurse-call systems for 400+ AU/NZ hospitals and aged-care facilities.
+- Full design lifecycle explicitly stated — research and discovery through to prototyping and testing.
+- Healthcare tech domain maps directly to Babylon Health / NHS "GP at Hand" background.
+- Dedicated Head of Experience & Design in leadership — design is a named function.
+- Scale-up (~205 employees) with visible patient-care impact.
+
+**Watch-outs**
+- Perm, salary $125K–$155K — lower end of stated range is below $140K threshold.
+- JD states "3–5 years' experience" — role may be calibrated for mid-level, not true senior.
+- Title is "UX/UI Designer" — confirm strategic product scope on application.
+- No AI-native signals in the role description.
+
+**Practicals**
+- 💰 Rate/salary: $125K–$155K perm (lower end ⚠️ below $140K threshold)
+- 📅 Start: not stated
+- 👤 Contacts: no named contact found
+- 🎯 Angle: Babylon Health / NHS GP at Hand patient-experience work maps directly to hospital-tech UX; "clinicians + patients" framing in JD aligns precisely
+- 🔗 Link: https://www.dreamworkhq.com/job/91ff88bd-4bf9-47b7-b0d4-34e77c129d90
+
+---
+
+### ⏳ Principal Product Designer (Design Systems) — Mable
+**Principal level — log in maybe, do not score** · Perm · Melbourne / Sydney / Brisbane hybrid · Posted 2026-08-31
+
+**Why it fits**
+- Mable is a healthtech platform connecting people with disability and older Australians to support workers — health and public-good domain.
+- Explicitly integrates AI tooling (Claude) into the design system — rare and relevant signal.
+- WCAG 2.2 AA accessibility mandate aligns with Daniel's "usable means accessible" philosophy.
+- Melbourne hybrid office explicitly listed alongside Sydney and Brisbane — Melbourne-accessible.
+- 8+ years required; Daniel's 10+ years and Informed Decisions design system ownership are direct proof points.
+
+**Watch-outs**
+- Principal level — criteria says log in maybe, do not score as a fit.
+- Design-systems-specialist scope rather than product feature design or discovery.
+- No discovery, research, or 0→1 product work described.
+- Perm; posted 2026-08-31 — 5+ weeks old, may be approaching expiry.
+- Salary not stated in official posting (aggregators cite A$170K–$210K — unconfirmed).
+
+**Practicals**
+- 💰 Rate/salary: ⚠️ rate unknown (aggregators cite A$170K–$210K — verify directly)
+- 📅 Start: not stated
+- 👤 Contacts: no named contact found
+- 🎯 Angle: Informed Decisions design system (first design system at a gov/retail data platform) is a direct match; mention WCAG 2.2 AA and AI tooling familiarity
+- 🔗 Link: https://jobs.lever.co/mable/e1aed421-83a9-4a02-8162-e9e6e2d3b4e9
+
+---
+
 ## 💀 Expired but relevant — outreach targets
 <!-- ### 💀 [Role] — [Company] — closed YYYY-MM-DD
 **Why it was a fit** — bullets
@@ -694,6 +758,12 @@ Last digest sent after run: —
 
 ## 📊 Market notes
 <!-- Newest first. A dated **YYYY-MM-DD (run N)** line, then one bullet per observation. -->
+
+**2026-10-04 (run 11)**
+- Rauland Australia (hospital/aged-care tech, ~205 staff) first surfaced a senior UX/UI designer role — health sector hiring for UX beyond pure digital-health startups.
+- Mable now has a second active design role (Principal PD, Design Systems) explicitly connecting the design system to AI tooling (Claude) — design team growing post-Senior PD.
+- Up Bank / Ferocia: only open design role remains a Product Design Manager (not IC) — no IC opportunity for the second+ confirmed run.
+- SEEK alert noise ratio unchanged: majority of alerts continue to be graphic, fashion, and apparel roles.
 
 **2026-09-27 (run 10)**
 - me&u (formerly Mr Yum) is building an AI-first product design team — a rare hospitality-tech AI-native signal.
