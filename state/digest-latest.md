@@ -1,19 +1,29 @@
-# Job Scout — 2026-10-04
+# Job Scout — 2026-10-12
 
 ## 🔥 New strong fits
-None this run.
+No new 🔥 roles this run.
 
-## ⏳ Also new
-- **Senior UX/UI Designer — Rauland Australia** · 55/100 · $125K–$155K perm (lower end ⚠️ below $140K)
-  - Why: healthcare tech (hospital/aged-care), full discovery lifecycle, Babylon/NHS domain overlap
-  - https://www.dreamworkhq.com/job/91ff88bd-4bf9-47b7-b0d4-34e77c129d90
+## ⏳ Also new — 4 maybes
+- **Lead Product Designer — Edrolo** · 60/100 · perm assumed · rate unknown
+  - Why: edtech scale-up (200k+ students), education/public-good domain, Lead IC scope, Melbourne
+  - ⚠️ JD not retrieved — enrich next run
+  - https://au.seek.com/job/95074065
 
-- **Principal Product Designer (Design Systems) — Mable** · Principal level · perm · Melbourne hybrid
-  - Why: healthtech, design system + AI tooling (Claude) integration, WCAG 2.2 AA, direct DS experience match
-  - ⚠️ Principal level (log in maybe per criteria); 5+ weeks old — check if still open
-  - https://jobs.lever.co/mable/e1aed421-83a9-4a02-8162-e9e6e2d3b4e9
+- **Experience Designer, Customer Apps — EnergyAustralia** · 55/100 · Day Rate Contract · rate unknown
+  - Why: day rate contract, consumer-facing apps at a large AU utility, design-mature org (also hiring DS role)
+  - ⚠️ Confirm day rate exceeds $900/day
+  - https://au.seek.com/job/95056187
+
+- **Digital UX/UI Designer, Design System — EnergyAustralia** · 50/100 · perm assumed · rate unknown
+  - Why: design system ownership aligns with Informed Decisions DS work; same company as above
+  - ⚠️ Borderline score — verify scope before pursuing
+  - https://au.seek.com/job/95054962
+
+- **Senior Product Designer — Uptick** · 52/100 · perm assumed · rate unknown
+  - Why: B2B SaaS scale-up, mobile-first compliance product, Melbourne hybrid
+  - ⚠️ Verify role freshness (may be Feb 2026 posting still open)
+  - search LinkedIn or SEEK for "Senior Product Designer Uptick"
 
 ## 📊 Market note
-- Rauland first appearance — health sector UX hiring extends beyond digital-health startups.
-- Mable integrating Claude into their design system workflow — a concrete AI-tooling signal in healthtech.
-- Up Bank / Ferocia: only open design role is a Product Design Manager (not IC) again.
+- Edrolo edtech and EnergyAustralia utility both surfaced this run — broader range of domains than prior weeks.
+- SEEK alert signal-to-noise ratio remained low; most alerts repeated the same roles (REA Group, Brand Collective) all week.

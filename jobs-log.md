@@ -15,6 +15,24 @@ Running master file. The weekly scan appends here; existing entries are never re
 - ⚠️ Issues: one per bullet
 Omit empty sub-sections. -->
 
+### 2026-10-12 · run 12
+- 📥 Alerts read: 13
+- ✅ New: 🔥 0 · ⏳ 4
+- **Added**
+  - ⏳ **Edrolo** — Lead Product Designer · 60/100 · Melbourne · edtech/public good · scored from alert snippet
+  - ⏳ **EnergyAustralia** — Experience Designer, Customer Apps · 55/100 · Melbourne · Day Rate Contract · energy utility
+  - ⏳ **EnergyAustralia** — Digital UX/UI Designer, Design System · 50/100 · Melbourne · perm assumed · design system focus
+  - ⏳ **Uptick** — Senior Product Designer · 52/100 · Melbourne · perm assumed · B2B SaaS fire safety
+- **Hard-filtered**
+  - **Envato** — Product Designer, Visual Craft & AI · below senior (JD explicitly open to non-designers)
+  - **Commonwealth Bank** — Senior Product Designer · Sydney only
+- **Discarded**
+  - **REA Group** — Product Designer · previously hard-filtered run 8 (no Senior qualifier); same assessment
+  - **Equiem** — Senior Product Designer · previously discarded run 11; same role resurfaced
+  - **SEEK alert noise** — graphic, fashion, apparel, homewares, footwear, physical-product roles
+- 🎯 Targets checked: Dovetail (unchanged · Sydney + 4 days onsite), Eucalyptus (Sydney role in inbox; no AU-remote confirmed; hard filter), Atticus (already logged), Deputy (unchanged · Sydney hybrid)
+- ⚠️ Issues: SEEK job pages returned 403 — all SEEK roles scored from email alert snippets only
+
 ### 2026-10-04 · run 11
 - 📥 Alerts read: 13
 - ✅ New: 🔥 0 · ⏳ 2
@@ -683,6 +701,102 @@ Last digest sent after run: —
 
 ---
 
+### ⏳ Lead Product Designer — Edrolo
+**60/100** _(perm assumed −10 applied; scored from alert email only — fetch JD next run)_ · Perm (assumed) · Melbourne · Found 2026-10-08
+
+**Why it fits**
+- Edrolo serves 200,000+ students, 17,000 teachers, and 1,000 schools across AU — education/public-good domain.
+- Lead level IC scope; likely broad design ownership at a scale-up.
+- Education domain maps to Daniel's preferred public-good areas (health, gov, education).
+- Melbourne-based.
+
+**Watch-outs**
+- JD not retrieved (SEEK 403) — score is provisional; enrich next run.
+- Perm assumed; contract type unconfirmed.
+- No discovery, AI-native, or craft signals visible without the JD.
+- Tobias Bjarnelind listed as Head of Product & Design — confirm IC reporting line.
+
+**Practicals**
+- 💰 Rate/salary: ⚠️ rate unknown
+- 📅 Start: not stated — verify
+- 👤 Contacts: Tobias Bjarnelind — Head of Product & Design, Edrolo (verify on LinkedIn before reaching out)
+- 🎯 Angle: edtech institutional complexity maps to Daniel's B2B platform experience; Informed Decisions design system + Culture Amp B2B are direct proof points
+- 🔗 Link: https://au.seek.com/job/95074065
+
+---
+
+### ⏳ Experience Designer, Customer Apps — EnergyAustralia
+**55/100** _(Day Rate Contract — no perm handicap; scored from alert email only)_ · Day Rate Contract · Melbourne · Found 2026-10-05
+
+**Why it fits**
+- Day Rate Contract — no perm handicap applied.
+- Customer-facing apps for millions of AU energy users — public utility with real consumer impact.
+- EnergyAustralia simultaneously hiring for a Design System role — signals a design-mature org.
+- Melbourne-based.
+
+**Watch-outs**
+- JD not retrieved (SEEK 403) — day rate and scope unknown.
+- "Customer apps" framing could be execution-heavy with limited discovery.
+- Large enterprise (~2,500 employees) — no startup/scale-up bonus.
+- Rate not stated — flag if below $900/day.
+
+**Practicals**
+- 💰 Rate/salary: ⚠️ rate unknown — confirm day rate exceeds $900/day threshold
+- 📅 Start: not stated — verify
+- 👤 Contacts: no named contact found
+- 🎯 Angle: consumer-facing digital product ownership at scale (Babylon NHS app, Informed Decisions platform redesign) maps to energy customer app design
+- 🔗 Link: https://au.seek.com/job/95056187
+
+---
+
+### ⏳ Digital UX/UI Designer, Design System — EnergyAustralia
+**50/100** _(perm assumed −10 applied; scored from alert email only; borderline)_ · Perm (assumed) · Melbourne · Found 2026-10-05
+
+**Why it fits**
+- Design System focus aligns with Informed Decisions first-DS ownership.
+- Same company as the Day Rate Contract Customer Apps role — design team actively investing.
+- Melbourne-based.
+
+**Watch-outs**
+- "UX/UI Designer" title is a mild unicorn concern — verify scope on application.
+- Score at the floor of ⏳; JD detail could push below threshold.
+- Perm handicap applied.
+- Large enterprise — no startup/scale-up bonus.
+- No discovery, 0→1, or AI-native signals visible.
+
+**Practicals**
+- 💰 Rate/salary: ⚠️ rate unknown
+- 📅 Start: not stated — verify
+- 👤 Contacts: no named contact found
+- 🎯 Angle: design system ownership at Informed Decisions (first DS for AU gov/retail data platform) is the direct proof point
+- 🔗 Link: https://au.seek.com/job/95054962
+
+---
+
+### ⏳ Senior Product Designer — Uptick
+**52/100** _(perm assumed −10 applied; scored from search snippets)_ · Perm (assumed) · Melbourne hybrid · Found 2026-10-09
+
+**Why it fits**
+- Uptick is a B2B SaaS platform for fire safety compliance and inspection management.
+- Scale-up (~100–200 employees) — visible IC impact at a product company.
+- Mobile-first product design (inspection workflows on mobile) — interesting interaction design challenges.
+- Melbourne-based, hybrid.
+
+**Watch-outs**
+- Fire safety compliance domain — not a preferred public-good area.
+- Role may be the same Feb 2026 posting still open (6+ months) — verify freshness.
+- No discovery, 0→1, or AI-native signals confirmed.
+- Perm handicap applied.
+
+**Practicals**
+- 💰 Rate/salary: ⚠️ rate unknown (aggregators cite $120k–$170k AUD — unconfirmed)
+- 📅 Start: not stated — verify
+- 👤 Contacts: no named contact found
+- 🎯 Angle: complex compliance-context interaction design (Onfido biometric verification) + mobile product experience maps to Uptick's inspection workflow brief
+- 🔗 Link: search "Senior Product Designer Uptick" on LinkedIn or au.seek.com
+
+---
+
 ## 💀 Expired but relevant — outreach targets
 <!-- ### 💀 [Role] — [Company] — closed YYYY-MM-DD
 **Why it was a fit** — bullets
@@ -758,6 +872,12 @@ Last digest sent after run: —
 
 ## 📊 Market notes
 <!-- Newest first. A dated **YYYY-MM-DD (run N)** line, then one bullet per observation. -->
+
+**2026-10-12 (run 12)**
+- Edrolo (Melbourne edtech, 200k+ students) advertising Lead Product Designer — education sector hiring design leadership in Melbourne for the first time in this scan.
+- EnergyAustralia has two design roles open simultaneously (Design System + Customer Apps Day Rate) — large utility investing in product design capacity.
+- SEEK alerts noisy this week: REA Group, Brand Collective, and Emanate Technology appeared in every daily alert — few genuinely new digital product roles surfaced.
+- Envato's "Visual Craft & AI" PD role explicitly open to non-designers — creative-tools sector using AI portfolio as experience filter rather than years of experience.
 
 **2026-10-04 (run 11)**
 - Rauland Australia (hospital/aged-care tech, ~205 staff) first surfaced a senior UX/UI designer role — health sector hiring for UX beyond pure digital-health startups.

@@ -29,3 +29,7 @@ Format: `Company — Title — posted-date — tier`
 - me&u — AI-First Product Designer — 2026-09-27 — ⏳
 - Rauland Australia — Senior UX/UI Designer — 2026-09-29 — ⏳
 - Mable — Principal Product Designer (Design Systems) — 2026-08-31 — ⏳
+- Edrolo — Lead Product Designer — 2026-10-08 — ⏳
+- EnergyAustralia — Experience Designer, Customer Apps (Day Rate Contract) — 2026-10-05 — ⏳
+- EnergyAustralia — Digital UX/UI Designer, Design System — 2026-10-05 — ⏳
+- Uptick — Senior Product Designer — 2026-10-09 — ⏳
