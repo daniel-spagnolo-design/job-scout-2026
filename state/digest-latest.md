@@ -1,29 +1,15 @@
-# Job Scout — 2026-10-12
+# Job Scout — 2026-10-18
 
 ## 🔥 New strong fits
 No new 🔥 roles this run.
 
-## ⏳ Also new — 4 maybes
-- **Lead Product Designer — Edrolo** · 60/100 · perm assumed · rate unknown
-  - Why: edtech scale-up (200k+ students), education/public-good domain, Lead IC scope, Melbourne
-  - ⚠️ JD not retrieved — enrich next run
-  - https://au.seek.com/job/95074065
-
-- **Experience Designer, Customer Apps — EnergyAustralia** · 55/100 · Day Rate Contract · rate unknown
-  - Why: day rate contract, consumer-facing apps at a large AU utility, design-mature org (also hiring DS role)
-  - ⚠️ Confirm day rate exceeds $900/day
-  - https://au.seek.com/job/95056187
-
-- **Digital UX/UI Designer, Design System — EnergyAustralia** · 50/100 · perm assumed · rate unknown
-  - Why: design system ownership aligns with Informed Decisions DS work; same company as above
-  - ⚠️ Borderline score — verify scope before pursuing
-  - https://au.seek.com/job/95054962
-
-- **Senior Product Designer — Uptick** · 52/100 · perm assumed · rate unknown
-  - Why: B2B SaaS scale-up, mobile-first compliance product, Melbourne hybrid
-  - ⚠️ Verify role freshness (may be Feb 2026 posting still open)
-  - search LinkedIn or SEEK for "Senior Product Designer Uptick"
+## ⏳ Also new — 1 maybe
+- **Senior CX Designer (AI Hub) — Medibank** · 58/100 · 12m FTC · rate unknown
+  - Why: mental health focus + AI Hub connection; maps to Unmind background + Culture Amp AI portfolio
+  - ⚠️ Scored from snippet only — enrich next run; confirm distinct from AI Design Lead already logged
+  - https://www.linkedin.com/jobs/view/4477054452
 
 ## 📊 Market note
-- Edrolo edtech and EnergyAustralia utility both surfaced this run — broader range of domains than prior weeks.
-- SEEK alert signal-to-noise ratio remained low; most alerts repeated the same roles (REA Group, Brand Collective) all week.
+- Medibank now has 3 design roles in the log — largest single-company design hiring push in this scan.
+- AustralianSuper Lead PD keeps surfacing in alerts but stays unverified — resolve with a direct fetch in run 14.
+- Target company batch (Bupa, Lorikeet, EatClub, New Forests) returned no new roles — consistent with prior runs.

@@ -33,3 +33,4 @@ Format: `Company — Title — posted-date — tier`
 - EnergyAustralia — Experience Designer, Customer Apps (Day Rate Contract) — 2026-10-05 — ⏳
 - EnergyAustralia — Digital UX/UI Designer, Design System — 2026-10-05 — ⏳
 - Uptick — Senior Product Designer — 2026-10-09 — ⏳
+- Medibank — Senior CX Designer (AI Hub) — 2026-10-16 — ⏳

@@ -15,6 +15,22 @@ Running master file. The weekly scan appends here; existing entries are never re
 - ⚠️ Issues: one per bullet
 Omit empty sub-sections. -->
 
+### 2026-10-18 · run 13
+- 📥 Alerts read: 10
+- ✅ New: 🔥 0 · ⏳ 1
+- **Added**
+  - ⏳ **Medibank** — Senior CX Designer (AI Hub) · 58/100 · Melbourne · 12m FTC · health + AI Hub · scored from snippet
+- **Hard-filtered**
+  - **Bright Labs** — Digital Designer (UX Focus - Mid-Weight) · below senior
+  - **REA Group** — Product Designer · mid-level (3–5 yrs); same as run 8 assessment
+- **Discarded**
+  - **NeonNow AI** — Senior PD · no company info found; unverifiable
+  - **AustralianSuper** — Lead Product Designer · same defer as run 10; still unverified without fetch
+  - **PlaySide Studios** — Lead Designer · gaming studio; not domain fit
+  - **Cuboid Ventures** — Product Designer · level unclear from alert snippet
+  - **SEEK/LinkedIn alert noise** — fashion, footwear, homewares, packaging, PM roles
+- 🎯 Targets checked: Bupa (no new PD roles), Lorikeet (no current openings — consistent with runs 4 & 8), EatClub (no design role — consistent with runs 4 & 8), New Forests (no design roles — consistent with runs 4 & 8)
+
 ### 2026-10-12 · run 12
 - 📥 Alerts read: 13
 - ✅ New: 🔥 0 · ⏳ 4
@@ -797,6 +813,32 @@ Last digest sent after run: —
 
 ---
 
+### ⏳ Senior CX Designer (AI Hub) — Medibank
+**58/100** _(scored from alert snippet + search snippets; enrich next run)_ · Contract (12m FTC assumed) · Melbourne (Docklands) · Found 2026-10-16
+
+**Why it fits**
+- Medibank is Australia's largest private health insurer — meaningful, people-centred domain.
+- Role linked to Medibank's Enterprise AI Hub — AI-native health context.
+- 12-month fixed term = contract-equivalent; no perm handicap applied.
+- Mental health focus confirmed in search snippet — maps to Daniel's Unmind work (registration redesign, B2B2C wellbeing).
+- End-to-end CX design with Human Centred Design principles — discovery signals present.
+- Melbourne Docklands hybrid; office attendance not mandated daily.
+
+**Watch-outs**
+- Large enterprise (ASX-listed) — no startup/scale-up bonus.
+- "CX Designer" title — verify it's product design, not service/ops design.
+- Medibank already has AI Design Lead (70/100) and Product Design Chapter Lead logged — confirm this is a distinct third role.
+- Scored from snippet only; full JD detail could shift score up or down.
+
+**Practicals**
+- 💰 Rate/salary: ⚠️ rate unknown
+- 📅 Start: not stated — verify
+- 👤 Contacts: no named contact found; search Medibank LinkedIn for CX/design leads
+- 🎯 Angle: ex-Unmind designer (mental health, B2B2C, wellbeing adoption) + Culture Amp AI portfolio maps directly to Medibank's health + AI Hub brief
+- 🔗 Link: https://www.linkedin.com/jobs/view/4477054452 | https://jobs.medibank.com.au
+
+---
+
 ## 💀 Expired but relevant — outreach targets
 <!-- ### 💀 [Role] — [Company] — closed YYYY-MM-DD
 **Why it was a fit** — bullets
@@ -872,6 +914,11 @@ Last digest sent after run: —
 
 ## 📊 Market notes
 <!-- Newest first. A dated **YYYY-MM-DD (run N)** line, then one bullet per observation. -->
+
+**2026-10-18 (run 13)**
+- Medibank now has 3 active design roles in the log (AI Design Lead, Product Design Chapter Lead, Senior CX Designer) — largest single-company design hiring volume seen in this scan.
+- AustralianSuper Lead PD continues to surface in LinkedIn alerts but remains unverified after two deferred runs — worth a direct WebFetch in run 14 to resolve.
+- Target companies Bupa, Lorikeet, EatClub, and New Forests show no new product design roles this run (consistent with prior assessments) — low-signal batch for target-company checks.
 
 **2026-10-12 (run 12)**
 - Edrolo (Melbourne edtech, 200k+ students) advertising Lead Product Designer — education sector hiring design leadership in Melbourne for the first time in this scan.
