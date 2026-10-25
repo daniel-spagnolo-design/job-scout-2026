@@ -15,6 +15,17 @@ Running master file. The weekly scan appends here; existing entries are never re
 - ⚠️ Issues: one per bullet
 Omit empty sub-sections. -->
 
+### 2026-10-25 · run 14
+- 📥 Alerts read: 4
+- ✅ New: 🔥 0 · ⏳ 0
+- **Discarded**
+  - **SafetyCulture** — Product Designer · title lacks Senior; level below filter
+  - **Carsales** — Senior Product Designer · large enterprise, automotive domain, not Daniel's fit
+  - **EstimateOne** — Senior Product Designer · construction procurement SaaS, Melbourne; insufficient ad detail to score; construction domain not priority
+  - **Kolmeo** — Senior Product Designer · prop-tech SaaS, Melbourne; posting dated Aug 2026, likely stale
+- 🎯 Targets checked: Blinq (no new PD roles beyond already-logged), Sapia.ai (no open PD roles found), Harrison.ai (no open PD roles found), SafetyCulture (Product Designer, below senior)
+- ⚠️ Issues: email alerts were mostly duplicates of already-logged roles; quiet week
+
 ### 2026-10-18 · run 13
 - 📥 Alerts read: 10
 - ✅ New: 🔥 0 · ⏳ 1
