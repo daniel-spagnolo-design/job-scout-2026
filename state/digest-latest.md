@@ -1,12 +1,10 @@
-# Job Scout — 2026-10-25
+# Job Scout — 2026-11-02
 
 ## 🔥 New strong fits
 - None this run.
 
 ## ⏳ Also new
-- 0 new maybes — quiet week.
+- 0 new maybes — inbox was mostly duplicates and below-level roles.
 
 ## 📊 Market note
-- Email alerts this week were largely duplicates of already-logged roles (Lyrebird, Uptick, Medibank, EnergyAustralia).
-- Target companies checked (Blinq, Sapia.ai, Harrison.ai, SafetyCulture) — no open senior PD roles found.
-- SafetyCulture has a "Product Designer" open but no Senior qualifier; Carsales and EstimateOne surfaced but neither fit domain or ad-quality bar.
+- Quiet week; all 4 target companies (Amber, Heidi Health, Cadmus, Canva) show no new product design roles since run 10.

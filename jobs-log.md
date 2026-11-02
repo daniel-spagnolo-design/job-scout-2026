@@ -15,6 +15,20 @@ Running master file. The weekly scan appends here; existing entries are never re
 - ⚠️ Issues: one per bullet
 Omit empty sub-sections. -->
 
+### 2026-11-02 · run 15
+- 📥 Alerts read: 5
+- ✅ New: 🔥 0 · ⏳ 0
+- **Hard-filtered**
+  - **Australia Post** — Product Designer · no Senior qualifier in title; large enterprise
+  - **Linktree** — Staff Product Designer · US-based (SF/LA/NY); same assessment as run 10
+- **Discarded**
+  - **PlaySide Studios** — Lead Designer · gaming studio; not domain fit (same as run 13)
+  - **Amber** — Senior Growth Designer (Jan 2026) · growth/activation focus; 9+ months old; below ⏳ threshold
+  - **Getmee** — UI/UX Designer/Product Manager · unicorn ad; designer + PM combined in one title
+  - **SEEK alert noise** — graphic designer roles only; wrong discipline
+- 🎯 Targets checked: Amber (no new PD roles; Staff/Principal already logged), Heidi Health (no new roles; Feb–Apr listings likely closed), Cadmus (same May 2026 Senior PD), Canva (no open lead/staff roles found)
+- ⚠️ Issues: quiet week; inbox contained mostly duplicates and below-level roles
+
 ### 2026-10-25 · run 14
 - 📥 Alerts read: 4
 - ✅ New: 🔥 0 · ⏳ 0
@@ -925,6 +939,11 @@ Last digest sent after run: —
 
 ## 📊 Market notes
 <!-- Newest first. A dated **YYYY-MM-DD (run N)** line, then one bullet per observation. -->
+
+**2026-11-02 (run 15)**
+- Quiet week — 5 inbox emails, all noise or duplicates; zero new keepers.
+- All 4 target companies (Amber, Heidi Health, Cadmus, Canva) unchanged: no new product design roles found since run 10 check.
+- Linktree and PlaySide Studios re-surfaced in LinkedIn alerts — same hard-filter/discard outcomes as runs 10 and 13.
 
 **2026-10-18 (run 13)**
 - Medibank now has 3 active design roles in the log (AI Design Lead, Product Design Chapter Lead, Senior CX Designer) — largest single-company design hiring volume seen in this scan.
