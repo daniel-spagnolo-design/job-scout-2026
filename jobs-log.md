@@ -15,6 +15,24 @@ Running master file. The weekly scan appends here; existing entries are never re
 - ⚠️ Issues: one per bullet
 Omit empty sub-sections. -->
 
+### 2026-11-09 · run 16
+- 📥 Alerts read: 8
+- ✅ New: 🔥 0 · ⏳ 0
+- **Hard-filtered**
+  - **Kmart** — Product Designer · no Senior qualifier; retail domain
+  - **Woolworths Group** — Product Developer 12m Contract · not a design role
+  - **Housing Hub** — Digital Product Owner · not a design role
+  - **Yapify Pty Ltd** — Freelance UI/UX Designer · 1-week project (<4 weeks); starts Nov 10
+  - **Getmee** — UI/UX Designer/Product Manager · unicorn ad; combined UX+PM role
+- **Discarded**
+  - **REA Group** — Senior Product Designer · expired Nov 2025 (Built In removal confirmed); same false signal as prior runs
+  - **CareSuper** — Service Designer · title mismatch; service design, not digital product
+  - **CareSuper** — UX/UI Designer · seniority unclear; insufficient signals
+  - **BB Design Group** — Senior Architect & Building Designer · physical architecture, not digital product
+  - **SEEK/LinkedIn alert noise** — graphic, apparel, production coordinator, building roles
+- 🎯 Targets checked: Atlassian (no new roles), Up Bank/Ferocia (no current open roles — Greenhouse 404), Airwallex (no new Melbourne roles), Mable (no new roles beyond logged)
+- ⚠️ Issues: Up Bank Senior PD (Aug 2026) Greenhouse listing 404 — appears closed/filled; quiet week
+
 ### 2026-11-02 · run 15
 - 📥 Alerts read: 5
 - ✅ New: 🔥 0 · ⏳ 0
@@ -939,6 +957,12 @@ Last digest sent after run: —
 
 ## 📊 Market notes
 <!-- Newest first. A dated **YYYY-MM-DD (run N)** line, then one bullet per observation. -->
+
+**2026-11-09 (run 16)**
+- 8 inbox emails from SEEK/LinkedIn/Indeed generated 0 new keepers — high noise-to-signal week.
+- REA Group Senior PD resurfaces in LinkedIn alerts (Nov 4) but listing confirmed expired Nov 2025 — recurring false positive.
+- Up Bank/Ferocia: Greenhouse listing for Aug 2026 Senior PD returned 404 — appears filled; no IC roles open.
+- All 4 target companies (Atlassian, Up Bank, Airwallex, Mable) show no new product design openings this rotation.
 
 **2026-11-02 (run 15)**
 - Quiet week — 5 inbox emails, all noise or duplicates; zero new keepers.
